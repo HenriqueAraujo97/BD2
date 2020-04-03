@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7C8C7F4-F32F-65ED-FA06-1BF8660FFB30" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="PROMOTION_SUBCATEGORIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PROMOTION_SUBCATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROMO_SUBCATEGORY_ID" id="692A9303-4E5D-84A4-978F-16DE5FEAB7BC">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTION_SUBCATEGORIES</sourceObjSchema>
+<sourceObjName>PROMO_SUBCATEGORY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_SUBCATEGORY" id="E716F973-8B6C-22BA-0E17-F075C1F6E22B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTION_SUBCATEGORIES</sourceObjSchema>
+<sourceObjName>PROMO_SUBCATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMOTION_CATEGORIES_PROMO_CATEGORY_ID" id="3CFD6434-4D47-1F42-1016-FB1F30A4EA4F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTION_SUBCATEGORIES</sourceObjSchema>
+<sourceObjName>PROMO_CATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A469B8C-53D8-4F7B-9778-84918ED4A487" referredColumn="E0B2528C-A37B-1D97-6E85-5B70F7932453"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD6DF30B-BA9A-40FD-99DA-752640511FF5" name="PROMOTION_SUBCATEGORIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PROMOTION_SUBCATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:20 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692A9303-4E5D-84A4-978F-16DE5FEAB7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="602061CF-2A5D-534A-4CBB-44CF17354101" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="PROMOTION_SUBCATEGORIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PROMOTION_SUBCATEGORIES_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692A9303-4E5D-84A4-978F-16DE5FEAB7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A1A333C-4119-60DA-5FC0-CEEC485ED6F5" name="PROMOTION_SUBCATEGORIES_PROMOTION_CATEGORIES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CFD6434-4D47-1F42-1016-FB1F30A4EA4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

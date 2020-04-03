@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BUYS_SUPPLIER" directorySegmentName="seg_0" id="1B4186D4-5677-B3CA-019A-D2F09F1BDD5B">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<generatorID>F118A61B-9B4A-C4EA-A7D1-E0C6BBDBEEF3</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<sourcePk>48E61A58-C086-BE02-7E2E-53E68812B095</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD5BD15D-45D1-BBDD-FB1C-C79276D7A2E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24F8344A-16A7-8660-B765-69B1D0AE2324</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

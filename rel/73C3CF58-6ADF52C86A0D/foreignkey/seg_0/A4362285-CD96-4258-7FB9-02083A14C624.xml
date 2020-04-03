@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4362285-CD96-4258-7FB9-02083A14C624" containerWithKeyObject="277EE90A-1D88-E3E6-8BDC-CA290793E423" localFKIndex="28A56E8F-A61A-B2BF-AD86-E0A270E53B33" name="SALES_CUSTOMERS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_SALES_CUSTOMER</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>49540D13-2516-3207-1090-80A00D317A64</importedID>
+<referredTableLongName>OLTP_2020.CUSTOMERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0A793C5-8EE7-2633-E185-35DC4CDDA3E6</referredTableID>
+<keyObject>59549C62-7D00-B07E-A50D-FB780C576AE3</keyObject>
+<referredKeyID>59549C62-7D00-B07E-A50D-FB780C576AE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CUST_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

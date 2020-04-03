@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45F458B0-A985-F09E-191E-7E083FC6E888" name="SUPPLEMENTARY DEMOGRAPHICS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>DFFDBD3A-23B7-F873-8F07-683F6B0FD4B7</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUST ID" id="E1FDEA7F-05FD-0C70-727E-FF1CC6C53D30">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>733B3E95-EF5A-4275-3C30-E4AEB6B6FD6B</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<referedAttribute>3213585C-B941-BF2B-7913-C6706E8F21E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EDUCATION" id="FFA6DE45-4C5B-D201-1580-DA911D69A96D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>D8B8FD71-F77C-71C9-765C-E67DBD4EC304</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCCUPATION" id="90EB8AA4-549F-137B-249F-1823EF2760DE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>66985AE2-2556-9861-00F5-488F0EDCC406</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOUSEHOLD SIZE" id="5D74C152-5B47-AC17-1B13-5825599A4E76">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>3F56CBC8-3456-8848-5F3F-24F79006A98F</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YRS RESIDENCE" id="A25259A1-542E-6014-6136-1F4269C38CA1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>6BBEFAFD-C52E-0A4C-726A-F1200B386396</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFFINITY CARD" id="7630176B-8F02-B53F-F9B1-868D672AE2B1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>B0B10B32-49FA-65AD-1372-4E0B7A5D95A7</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BULK PACK DISKETTES" id="F8700677-F9B5-E9EC-05BD-599DC7D661AF">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>99F3306B-15CD-C104-34B6-33B1E02C7750</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FLAT PANEL MONITOR" id="B3F81AC5-774E-AFB1-4112-727C181BF428">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>8D78CF2A-D6E7-9410-9926-7FE0D212EEE2</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOME THEATER PACKAGE" id="9C34F8D9-B40D-880F-ACCE-23468F3C1D94">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>9060AEF5-5314-89AD-5B46-FFBCBBF2253F</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOOKKEEPING APPLICATION" id="7CFCAB42-52F1-7BCC-0EBE-8819B65FA232">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>80B6350E-5E37-0A52-1E45-AE02FEC735F7</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRINTER SUPPLIES" id="D9863220-1739-FDE2-CE5C-CE62D4DBD56D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>FF3AC7CE-8A69-94A9-C599-5FB3F7E62F90</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Y BOX GAMES" id="ABF6EA45-F9B1-ED67-3A42-1FF61189DADC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>9EA2BF4E-7412-067C-D156-3096BA7A04A2</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OS DOC SET KANJI" id="8203B896-F75E-0744-E7E6-E4D791B6E9E9">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>4D098D94-9C5E-865C-ABAF-B0FF1596B24D</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMENTS" id="EB9FACB9-CA2F-FE5F-C51E-3600E53D3CF4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>6D1075E4-E28E-4A12-B5DD-86974A1F64FE</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97DEEDC2-F5AE-6626-75A3-CCA4B6299AD7" name="SUPP DEMO PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>26EE9C83-445D-C365-D5BB-3A927C84B034</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1FDEA7F-05FD-0C70-727E-FF1CC6C53D30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

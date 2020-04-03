@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROMOTIONS_PROMOTION_SUBC" directorySegmentName="seg_0" id="D38F20FF-6801-7B59-90AC-E4EB436BA421">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>73077E4E-E2B9-D757-B09D-0DB6CF247663</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<sourcePk>973D8BD5-5A66-9ADA-767B-974C1697E3F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FED321A5-6E51-6E0A-1CE8-7E6888B529B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F6DA03E2-E77D-7C7A-AC19-7F8163690555</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

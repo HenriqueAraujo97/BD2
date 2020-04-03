@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0C8050A-D8FB-6766-3C41-3B1DBD4D641B" containerWithKeyObject="42FD93BA-AEE9-EED1-AB83-32F5FCCB786C" localFKIndex="8F463E6F-3554-BEAE-1D47-FF587E7D6DCD" name="SALES_CHANNELS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_SALES_CHANNEL</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<referredTableLongName>OLTP_2020.CHANNELS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B660EC8E-6157-7ABC-4E5A-A21F9B808D99</referredTableID>
+<keyObject>786E56A2-9DCD-5346-7561-6096FD2345B2</keyObject>
+<referredKeyID>786E56A2-9DCD-5346-7561-6096FD2345B2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CHANNEL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROMOTION_SUBCATEGORIES" directorySegmentName="seg_0" id="B7C8C7F4-F32F-65ED-FA06-1BF8660FFB30">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C9534B6-CDB1-925E-4AFB-470B6FFA45F5</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROMOTION_CATEGORIES_PROMO_CATEGORY_ID" id="3CFD6434-4D47-1F42-1016-FB1F30A4EA4F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMO_SUBCATEGORY_ID" id="692A9303-4E5D-84A4-978F-16DE5FEAB7BC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMO_SUBCATEGORY" id="E716F973-8B6C-22BA-0E17-F075C1F6E22B">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROMOTION_SUBCATEGORIES_PK" id="602061CF-2A5D-534A-4CBB-44CF17354101">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROMOTION_SUBCATEGORIES_PROMOTION_CATEGORIES_FK" id="2A1A333C-4119-60DA-5FC0-CEEC485ED6F5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROMOTION_SUBCATEGORIES_PK" id="AD6DF30B-BA9A-40FD-99DA-752640511FF5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:20 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<existingIndex>602061CF-2A5D-534A-4CBB-44CF17354101</existingIndex>
+<indexSegment>D39FB4FB-B9AC-98AF-997C-27520F90B480</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

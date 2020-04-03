@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12290B21-6BA8-46A3-79A0-C29FD3555883" name="COUNTRIES">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[country dimension table (snowflake)]]></commentInRDBMS>
+<generatorID>A5FED63E-9316-7385-DF94-83C100B8458C</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUNTRY ID" id="293D506B-8E84-B9BF-A719-361F90E4B540">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<generatorID>BABC460B-5B12-A5E3-6195-9347C40D859C</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY NAME" id="9DADF6C9-8FEA-501B-C9D3-DFE15DE7E83C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[country name]]></commentInRDBMS>
+<generatorID>846627CC-71F5-119E-EE1B-9CEBA15F8FF7</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY SUBREGION" id="A465A862-BB2E-8D8D-81C2-65D376C7CC56">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[e.g. Western Europe, to allow hierarchies]]></commentInRDBMS>
+<generatorID>0A092708-AB38-4A42-4B1F-A93722119207</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1E872A02-3B8D-001D-C83B-840F0B215DEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F92F2500-9413-9C44-041C-6367C28A0855" name="PK COUNTRIES">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<generatorID>CCE3F980-B9EF-5277-6450-5EF1543CFF6C</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>293D506B-8E84-B9BF-A719-361F90E4B540</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

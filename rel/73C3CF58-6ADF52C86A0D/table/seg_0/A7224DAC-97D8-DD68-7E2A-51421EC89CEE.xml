@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7224DAC-97D8-DD68-7E2A-51421EC89CEE" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="CATEGORIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>CATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BA927E56-350A-0455-C69C-BDA17B6B6B2F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAT_ID" id="1DDAE426-F69B-5B2B-38E2-AD13D081F350">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CATEGORIES</sourceObjSchema>
+<sourceObjName>CAT_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BFBEE834-FF9B-473D-D407-34982D1867DF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CATEGORY" id="7644B45A-DCC3-579D-9750-B02960B1B761">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CATEGORIES</sourceObjSchema>
+<sourceObjName>PROD_CATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>30BB99A3-73CF-7AFA-27B5-6ADD85803FED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_PROD_CATEGORY_CATEGORI</notNullConstraintName>
+</Column>
+<Column name="PROD_CAT_DESC" id="126871F7-40A0-EF60-8636-5401F8A9C031">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CATEGORIES</sourceObjSchema>
+<sourceObjName>PROD_CAT_DESC</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category description]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>340CD9D7-8259-5506-7B96-EE2D95FC1898</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_PROD_CAT_DESC_CATEGORI</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA066F72-9C99-8611-0648-612C3AFB1D58" name="CATEGORIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>A23CAEB0-14BB-95A3-6DEC-E80C5AA0CDE6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DDAE426-F69B-5B2B-38E2-AD13D081F350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DC9D56E-F0D4-9CDB-3C50-583366712965" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_CATEGORIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>056B4CCC-40DD-C46C-89AC-8BBBF0F56071</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DDAE426-F69B-5B2B-38E2-AD13D081F350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

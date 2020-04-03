@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SALES_ROWS" directorySegmentName="seg_0" id="47C9D645-1B83-8605-BDDA-18A4AF3088A3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8B12C56C-083F-D704-E0F1-BC3A59496224</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OUTLET_ID" id="1E6DC3D9-E549-E9E8-1C9A-7426E4068F3D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_SOLD" id="414C85A9-3D6B-8144-FD4E-62428D0D5578">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALES_SALE_ID" id="642CD0DF-014C-9CA1-7F18-F109BCE80327">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALE_ROW_ID" id="91E639C9-8508-A9F3-FCB2-80F969AC7BD0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMOTIONS_PROMO_ID" id="97B539F9-DC3C-5804-D17B-CEB462A28FE6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSPORT_ID" id="AB73F0C4-F481-BFA0-F332-19D4C396132E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTS_PROD_ID" id="D9A74519-83C5-3886-460C-4FFCAE4CF7A9">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY_SOLD" id="E111E30C-E56D-BAF6-9670-8A1652299B96">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFUND_ID" id="ED53722E-243E-F574-DD77-16C78703E7ED">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAX_ID" id="F5FABF6A-5A84-B792-8401-8EC4C828EB8F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SALE_ROW_ID_PK" id="F9E44294-8360-6E2E-0527-700A9EB4EB42">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_ROWS_PRODUCTS_FK" id="0FB8DB6B-B781-59DA-8CBF-6613535FF5A3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_ROWS_SALES_FK" id="255B7B70-84F0-A7FB-A49F-141A33280470">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SALES_ROWS_PROMOTIONS_FK" id="AC150A99-17AD-86F0-DAA4-9C484D7C25C7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SALES_ROWS_PK" id="3A6363E7-3762-CB0C-FF24-B3EBAF10F69D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:21 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<existingIndex>F9E44294-8360-6E2E-0527-700A9EB4EB42</existingIndex>
+<indexSegment>D39FB4FB-B9AC-98AF-997C-27520F90B480</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

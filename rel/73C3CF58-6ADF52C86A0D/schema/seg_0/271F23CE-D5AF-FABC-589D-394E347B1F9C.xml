@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="BDII_1012179" directorySegmentName="seg_0" id="271F23CE-D5AF-FABC-589D-394E347B1F9C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-18 09:55:36 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>CA91E80A-3D07-086C-2FA4-ED0A547E8E69</importedID>
+</SchemaObject>

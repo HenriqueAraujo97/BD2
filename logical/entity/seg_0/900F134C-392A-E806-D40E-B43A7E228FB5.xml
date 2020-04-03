@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="900F134C-392A-E806-D40E-B43A7E228FB5" name="PRODUCT DESCRIPTIONS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[dimension table]]></commentInRDBMS>
+<generatorID>D19FCCCB-CA91-1FE9-1E4E-8079979C56B7</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROD DESC ID" id="035A5A9E-08F3-C197-7CF3-D708DAB6CDEE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<generatorID>095A8A9F-EC54-29DA-C7E8-592A7E3747EF</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD NAME" id="D89D17D7-0D60-A57B-4672-E0882120A7B3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[product name]]></commentInRDBMS>
+<generatorID>413C9A52-7A17-02BE-B3EC-F0E7E7F3C0D9</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD DESC" id="B1A194EB-61AC-0C27-C082-4FA1A206AC73">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[product description]]></commentInRDBMS>
+<generatorID>AFEE4486-59CF-EFE7-311C-66F5E89F47F1</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D04C7C51-A42B-0F9E-EFFC-3FC5B64354C1" name="PK PRODUCT DESCRIPTIONS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<generatorID>0052A8A7-9F81-433D-3F7D-6C721FEBCA72</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>035A5A9E-08F3-C197-7CF3-D708DAB6CDEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

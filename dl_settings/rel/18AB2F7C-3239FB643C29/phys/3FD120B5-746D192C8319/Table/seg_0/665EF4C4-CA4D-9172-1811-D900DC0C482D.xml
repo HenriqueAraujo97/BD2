@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="bdii_1012531.currency" directorySegmentName="seg_0" id="665EF4C4-CA4D-9172-1811-D900DC0C482D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="bdii_1012531.currency.values_ID" id="4FD17D35-3CDF-088D-92DA-3C81115C462D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="669F388D-2FD3-7E7A-3C28-413988E97358">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9610E629-AFA6-C84E-E526-444908C912DF">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCRIPTION" id="D8DA97C0-1818-3CA2-139F-96B6B3DDDE17">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="bdii_1012531.currency_bdii_1012531.currency.values_FK" id="E4C1A259-AF80-68A6-87D8-6D7193A6597F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="bdii_1012531.currency_PK" id="734DEF42-E535-6516-6D25-589602358CFB">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

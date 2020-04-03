@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SALES_ROWS_SALES" directorySegmentName="seg_0" id="1E2DC211-616B-55B0-EB24-699C26EEFC3F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<generatorID>4ED183ED-9941-3D00-2C9E-848427E746E0</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<sourcePk>3F7B6465-C6F0-0ECA-4359-E498655DABB5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6119D69F-EF57-45C4-CD19-469667E6F136</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FBEC71FB-B08B-24C6-CB04-7878DFB0BE3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4AEE328-2A8B-B850-5178-0C7DBD06F92B" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PROMOTIONS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PROMOTIONS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>25BE5ED7-918B-DB5F-A0E0-9729391B7DE7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROMO_ID" id="F9E687F5-EA70-FFB2-A725-E529CA355864">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>D1B0AC28-79C3-8A65-AE8C-7F81052229EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_NAME" id="47A0D066-CCBB-1B15-514F-CE9E4E9BBAB6">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_NAME</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>7CD7C27A-2FF0-50FF-4825-85C3438B61AE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_COST" id="4A017474-9396-D9B8-F208-B53951E53B6C">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_COST</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>514D810A-465D-5EB7-5555-2EC1A6DEA7D9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_BEGIN_DATE" id="36764519-E62C-6B1A-75FB-60F80A0501B2">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_BEGIN_DATE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>5ABA798E-48C8-BFB1-DEBD-29D54033BDFF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_END_DATE" id="909287B6-A48A-2204-10CF-143A2D816691">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_END_DATE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8029CBC2-6B45-0A38-9BDD-5C328ABB9DBA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMOTION_SUBCATEGORIES_PROMO_SUBCATEGORY_ID" id="C23F0F7A-DFA1-ED02-58EE-C35558B42396">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>PROMO_SUBCATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0223846B-671A-0A3A-18D3-9DC5E4D10C51</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CF97BF-E637-057A-4838-A7CBE030666C" referredColumn="D3D1E44A-8C80-19D7-CBE6-336864584619"/>
+</associations>
+</Column>
+<Column name="DISCOUNT_PCT" id="028B87EF-708F-5266-CD7B-1C6680C6B580">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTIONS</sourceObjSchema>
+<sourceObjName>DISCOUNT_PCT</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>828BDAFD-85C3-02CB-0C3C-5D527007ED04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA810B2C-A578-69DE-7770-D942A24A7CEF" name="PROMOTIONS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PROMOTIONS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0323B309-257B-1B78-5350-72945FC3EC81</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9E687F5-EA70-FFB2-A725-E529CA355864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC8519A-000F-B8DA-E6D9-827B6E7B8676" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_PROMOTIONS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PROMOTIONS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>5FD94EBE-7BC9-B103-A37E-51B06F75D01E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9E687F5-EA70-FFB2-A725-E529CA355864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94359882-5B72-7348-3AE6-029FC849D602" name="PROMOTIONS_PROMOTION_SUBCATEGORIES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23F0F7A-DFA1-ED02-58EE-C35558B42396"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

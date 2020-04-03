@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SUB_CATEGORIES" directorySegmentName="seg_0" id="5FE15261-D4D0-D3CD-9A27-EBF3349539C3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B8BD58C-E22E-ECF7-0A78-C37A4108E578</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROD_SUBCATEGORY" id="2152B40C-650B-D484-4E44-8DCD809657E0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUB_CAT_ID" id="3E710B14-C9C2-AF91-9F73-51CB574D1CEE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_SUBCAT_DESC" id="A1CD0275-A2C6-C1E5-00BF-B5CB7E6662A3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAT_ID" id="C10953C2-1508-04AA-3F16-3789B14B8504">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RELATIONSHIP_7_FK" id="44F1F73F-B75B-0022-F27D-9C9324E5A8AE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+<segment>CBAA7A18-6898-7B05-F1BC-5D32E29415B7</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SUB_CATEGORIES" id="7FFB4373-7C43-AA5E-BFFD-2AF11CBDB0E6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+<segment>CBAA7A18-6898-7B05-F1BC-5D32E29415B7</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SUB_CATEGORIES_CATEGORY" id="4082092C-61B0-F31C-FD64-3CEC95AF7B97">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SUB_CATEGORIES" id="40B5B17D-3B07-5815-F1BF-CDD3113C2F70">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<segment>CBAA7A18-6898-7B05-F1BC-5D32E29415B7</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+<existingIndex>7FFB4373-7C43-AA5E-BFFD-2AF11CBDB0E6</existingIndex>
+<indexSegment>CBAA7A18-6898-7B05-F1BC-5D32E29415B7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

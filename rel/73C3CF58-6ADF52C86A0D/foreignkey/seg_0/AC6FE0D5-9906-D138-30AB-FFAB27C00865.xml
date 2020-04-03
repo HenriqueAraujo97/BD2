@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC6FE0D5-9906-D138-30AB-FFAB27C00865" containerWithKeyObject="11FF56ED-4C14-31CC-9121-515E0AE0EE0E" localFKIndex="A7C0E611-30C1-90A1-10BD-32E26875E327" name="PRODUCTS_PRODUCT_DESCRIPTIONS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_PRODUCTS_PROD_DESCRIPTION</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>37C4E6B2-4A78-D7BB-F828-7F027E421C64</importedID>
+<referredTableLongName>OLTP_2020.PRODUCT_DESCRIPTIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D19FCCCB-CA91-1FE9-1E4E-8079979C56B7</referredTableID>
+<keyObject>0052A8A7-9F81-433D-3F7D-6C721FEBCA72</keyObject>
+<referredKeyID>0052A8A7-9F81-433D-3F7D-6C721FEBCA72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROD_DESC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

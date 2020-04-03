@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEDCB9B8-A76F-CC82-B96D-2A28123CDF49" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="STATE_PROVINCES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>STATE_PROVINCES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>66C4BB7D-B977-812F-0C2C-557D91E1E343</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATE_PROVINCE_ID" id="113D3338-8754-BE4A-70FA-759281A578D0">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>STATE_PROVINCES</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>9D57B7F9-3494-0EE8-E855-3C8847DE68F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_PROVINCE" id="CE953AE2-5E3C-7DBC-5338-63CBD1DEE24B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>STATE_PROVINCES</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8BBAF6FA-9499-6E07-EEA9-258094F59BA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRIES_COUNTRY_ID" id="092C48EB-5E58-8DDA-D5E4-534558041079">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>STATE_PROVINCES</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>20AC9315-8EBB-FE13-AC9E-3C807F6A213B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B82309B-BCAB-2E3D-95EC-78BBF75C3D46" referredColumn="BABC460B-5B12-A5E3-6195-9347C40D859C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7605C705-76A4-ADD4-1639-6CB4940E01E0" name="STATE_PROVINCES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_STATE_PROVINCES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>1F5E7867-D030-85B1-3F20-8F6E49709EC3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="113D3338-8754-BE4A-70FA-759281A578D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5152A89-277E-70E5-053C-B78B1F900A5D" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="STATE_PROVINCE_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0CB55EE5-75AC-3231-7073-A3300B68500E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="113D3338-8754-BE4A-70FA-759281A578D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20C6E20E-080D-EA71-D863-0B78A5BDE6A9" name="STATE_PROVINCES_COUNTRIES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="092C48EB-5E58-8DDA-D5E4-534558041079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

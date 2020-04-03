@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D45D83B4-C7BE-1FEF-9AB5-36D559010BFA" containerWithKeyObject="A4A191F2-C25A-3F23-4975-4B93C7D7C0B8" localFKIndex="16C2FE14-B119-28B8-9AC6-AC9B39ADB291" name="BUYS_EMPLOYEES_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_BUYS_EMPLOYEE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0B1C46C6-9AB6-E508-0343-3516129A07F7</importedID>
+<referredTableLongName>OLTP_2020.EMPLOYEES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D480144C-789E-46B4-B7D2-ED9788F8B5BF</referredTableID>
+<keyObject>571D28F6-81FF-2EE9-A93A-A61A019CF33C</keyObject>
+<referredKeyID>571D28F6-81FF-2EE9-A93A-A61A019CF33C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPLOYEE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

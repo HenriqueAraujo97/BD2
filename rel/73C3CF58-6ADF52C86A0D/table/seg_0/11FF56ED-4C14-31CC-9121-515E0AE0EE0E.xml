@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11FF56ED-4C14-31CC-9121-515E0AE0EE0E" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PRODUCTS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PRODUCTS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[dimension table]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>63C10A04-7596-2455-1DCC-A97F74CD2483</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="4DEDCE1D-1671-F976-234D-72309E091DC5">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>1A613A5B-B5BC-6DA1-E041-09AAF35F71A1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_CATEGORIES_SUB_CAT_ID" id="28C7F0E6-E4F4-EE59-B5B0-CF859CBF6609">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>SUB_CAT_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>704EB393-0508-30CA-93CB-7995B0E2C4F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7E3FAA4-7191-6E31-3F37-BDCB2608E499" referredColumn="3E710B14-C9C2-AF91-9F73-51CB574D1CEE"/>
+</associations>
+</Column>
+<Column name="PROD_WEIGHT_CLASS" id="3A6BED38-366C-543F-6BDA-4ECBFF25E22F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_WEIGHT_CLASS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product weight class]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>19AD73ED-4A29-6C2A-6AE5-67CE04378DCC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_UNIT_OF_MEASURE" id="6515E8BA-7E65-06DC-F141-721D780E88AB">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_UNIT_OF_MEASURE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product unit of measure]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>703B2868-14EF-3DCB-73F0-5579CC8FCA70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_PACK_SIZE" id="8E7DCC79-74D0-E12C-39A9-E7EA9E3A40A4">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_PACK_SIZE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product package size]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>48670884-2963-59F2-9140-F88DE4EDBDC3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_STATUS" id="3CD2ABF2-870D-D7D2-8245-9B10EA99135E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_STATUS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product status]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>843805E8-3F37-A85F-7913-5EC36B1958D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_PROD_STATUS_PRODUCTS</notNullConstraintName>
+</Column>
+<Column name="PROD_LIST_PRICE" id="A72C1D25-C244-AEB4-0CC7-2D2E7AF6F0F4">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_LIST_PRICE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product list price]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>17D5BF4A-5AB5-C9BF-CABB-F64C1DDA8399</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_PROD_LIST_PRICE_PRODUCTS</notNullConstraintName>
+</Column>
+<Column name="PROD_MIN_PRICE" id="0C454FA3-FB35-EB76-6A15-46193B68E8C8">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_MIN_PRICE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product minimum price]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>584DC52B-3D87-9ECD-FE29-50173C3C6644</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_PROD_MIN_PRICE_PRODUCTS</notNullConstraintName>
+</Column>
+<Column name="PRODUCT_DESCRIPTIONS_PROD_DESC_ID" id="672C135A-EE76-B87C-8121-BF3868AD85E8">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_DESCRIPTIONS_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>68E5543B-5128-2FB6-6DC2-BFB1959AF53A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6FE0D5-9906-D138-30AB-FFAB27C00865" referredColumn="095A8A9F-EC54-29DA-C7E8-592A7E3747EF"/>
+</associations>
+</Column>
+<Column name="PROD_COST" id="FFAE87A5-EFA5-890D-1771-54B697466650">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_COST</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>6338846D-9AF0-23B0-5F81-BCEA41C56459</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2BA946A-4027-44E3-26AD-EF569807868F" name="PRODUCTS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PRODUCTS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>20DCBC56-2260-DC56-BC8D-235D2389F26D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DEDCE1D-1671-F976-234D-72309E091DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7369E8DD-9FAE-B138-619A-A7F84176CFC8" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_PRODUCTS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PRODUCTS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>DF9A740F-AD42-AC8A-2ACC-9E71E9CD0F4A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DEDCE1D-1671-F976-234D-72309E091DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5B2226E-E025-1362-5406-1A5F8C7185E7" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="RELATIONSHIP_6_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>RELATIONSHIP_6_FK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8BD8E2DB-A99B-5459-6DF9-3E1C4842F87D</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C7F0E6-E4F4-EE59-B5B0-CF859CBF6609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7C0E611-30C1-90A1-10BD-32E26875E327" name="PRODUCTS_PRODUCT_DESCRIPTIONS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672C135A-EE76-B87C-8121-BF3868AD85E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E24186D8-0840-1C84-792D-D21B5CD9E021" name="PRODUCTS_SUB_CATEGORIES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C7F0E6-E4F4-EE59-B5B0-CF859CBF6609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

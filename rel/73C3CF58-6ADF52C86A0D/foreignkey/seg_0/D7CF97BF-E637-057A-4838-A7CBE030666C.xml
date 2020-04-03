@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CF97BF-E637-057A-4838-A7CBE030666C" containerWithKeyObject="A4AEE328-2A8B-B850-5178-0C7DBD06F92B" localFKIndex="94359882-5B72-7348-3AE6-029FC849D602" name="PROMOTIONS_PROMOTION_SUBCATEGORIES_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_PROMOTIONS_PROMOTION_SUBC</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>5FA1E54B-5452-8A7D-68C4-7973779D9894</importedID>
+<referredTableLongName>OLTP_2020.PROMOTION_SUBCATEGORIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D58768BC-0E99-0A30-545F-E2642B0570CD</referredTableID>
+<keyObject>05331E7C-B65F-D2AE-952B-984ED6DA9587</keyObject>
+<referredKeyID>05331E7C-B65F-D2AE-952B-984ED6DA9587</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PROMO_SUBCATEGORY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

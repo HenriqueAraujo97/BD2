@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="OLTP_2020" directorySegmentName="seg_0" id="BD885505-4EB7-C2C4-2949-1805A5910E6B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjName>OLTP_2020</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:46 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+</UserOraclev10g>

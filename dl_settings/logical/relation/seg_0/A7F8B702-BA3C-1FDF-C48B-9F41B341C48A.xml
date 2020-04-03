@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BUYS_EMPLOYEE" directorySegmentName="seg_0" id="A7F8B702-BA3C-1FDF-C48B-9F41B341C48A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>738196D5-4470-4ED1-4A79-9B156702DC99</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<sourcePk>5605369F-D559-0652-0B83-DDA7F845AFA3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2FA73F8F-F15B-6D30-18BE-E9E079C5EF7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C53F5C0-D6C2-B69E-7823-9AEB49427331</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="536C8043-AA08-2586-F67F-2F71DC87515A" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="CHANNELS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>CHANNELS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C87A40F2-B5CA-0577-11CC-8DC2C4CEF85F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CHANNEL_ID" id="896E777F-F62A-3C58-1728-85D791DC48FC">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CHANNELS</sourceObjSchema>
+<sourceObjName>CHANNEL_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BBF47DCB-FFD7-1365-10B3-116E7629D254</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANNEL_DESC" id="03038A1F-4F75-8CB4-BC47-62CD7BC5D9FD">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CHANNELS</sourceObjSchema>
+<sourceObjName>CHANNEL_DESC</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>06ECF27F-3394-1FBF-9C0D-3170FC83791C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANNEL_CLASS" id="11BFC82C-3E09-FD1B-B46F-D79AC21E08AC">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CHANNELS</sourceObjSchema>
+<sourceObjName>CHANNEL_CLASS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4A3E081D-9DF2-71E3-0885-235F88E10CE0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COST_SALE_PCT" id="4BE48194-868A-A95F-C041-EA223B037881">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CHANNELS</sourceObjSchema>
+<sourceObjName>COST_SALE_PCT</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4A32643C-A750-9AF1-76B9-168261271EBA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,5,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2B2C9BF-5645-84DA-C68F-F1EADB9AB7DD" name="CHANNELS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CHANNELS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>6F041B79-8960-1A08-DF7A-435A254E8384</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="896E777F-F62A-3C58-1728-85D791DC48FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1874E590-A144-7F17-6E98-5AD13A4B317B" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_CHANNELS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CHANNELS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>7C1C20CA-24AA-9E27-4616-FB3C5CBB8CB1</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="896E777F-F62A-3C58-1728-85D791DC48FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

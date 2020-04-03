@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47C9D645-1B83-8605-BDDA-18A4AF3088A3" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="SALES_ROWS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES_ROWS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTS_PROD_ID" id="D9A74519-83C5-3886-460C-4FFCAE4CF7A9">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5349A5ED-93CB-C5E0-35E6-C3E9FB50DF35" referredColumn="68E58011-607C-7B60-B31E-C0A51C45649B"/>
+</associations>
+</Column>
+<Column name="QUANTITY_SOLD" id="E111E30C-E56D-BAF6-9670-8A1652299B96">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>QUANTITY_SOLD</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_SOLD" id="414C85A9-3D6B-8144-FD4E-62428D0D5578">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>AMOUNT_SOLD</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_SALE_ID" id="642CD0DF-014C-9CA1-7F18-F109BCE80327">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>SALE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A32B7965-6461-D6F9-80ED-9BDD227D6F9A" referredColumn="1BF182E1-CDAF-533F-7405-DBBE3A1C9CFF"/>
+</associations>
+</Column>
+<Column name="PROMOTIONS_PROMO_ID" id="97B539F9-DC3C-5804-D17B-CEB462A28FE6">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>PROMOTION_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98E75F90-FBC8-483B-659C-2CEC29008D1F" referredColumn="FCEC6305-0D22-3995-2477-7C241ADE7C34"/>
+</associations>
+</Column>
+<Column name="TRANSPORT_ID" id="AB73F0C4-F481-BFA0-F332-19D4C396132E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>TRANSPORT_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAX_ID" id="F5FABF6A-5A84-B792-8401-8EC4C828EB8F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>TAX_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFUND_ID" id="ED53722E-243E-F574-DD77-16C78703E7ED">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>REFUND_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OUTLET_ID" id="1E6DC3D9-E549-E9E8-1C9A-7426E4068F3D">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>OUTLET_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALE_ROW_ID" id="91E639C9-8508-A9F3-FCB2-80F969AC7BD0">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES_ROWS</sourceObjSchema>
+<sourceObjName>SALE_ROW_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A6363E7-3762-CB0C-FF24-B3EBAF10F69D" name="SALES_ROWS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALE_ROW_ID_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:21 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91E639C9-8508-A9F3-FCB2-80F969AC7BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9E44294-8360-6E2E-0527-700A9EB4EB42" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="SALE_ROW_ID_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALE_ROW_ID_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91E639C9-8508-A9F3-FCB2-80F969AC7BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FB8DB6B-B781-59DA-8CBF-6613535FF5A3" name="SALES_ROWS_PRODUCTS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9A74519-83C5-3886-460C-4FFCAE4CF7A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC150A99-17AD-86F0-DAA4-9C484D7C25C7" name="SALES_ROWS_PROMOTIONS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97B539F9-DC3C-5804-D17B-CEB462A28FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="255B7B70-84F0-A7FB-A49F-141A33280470" name="SALES_ROWS_SALES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="642CD0DF-014C-9CA1-7F18-F109BCE80327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CF2B20E-07A0-8955-F98B-3AB612FBF876" containerWithKeyObject="277EE90A-1D88-E3E6-8BDC-CA290793E423" localFKIndex="1B81EFAE-063C-C412-37EE-5201509BDBF2" name="SALES_CHANNELS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_SALES_CHANNEL</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E2A26D9B-C92B-C842-4670-EA49F34EF1AA</importedID>
+<referredTableLongName>OLTP_2020.CHANNELS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>536C8043-AA08-2586-F67F-2F71DC87515A</referredTableID>
+<keyObject>C2B2C9BF-5645-84DA-C68F-F1EADB9AB7DD</keyObject>
+<referredKeyID>C2B2C9BF-5645-84DA-C68F-F1EADB9AB7DD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CHANNEL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

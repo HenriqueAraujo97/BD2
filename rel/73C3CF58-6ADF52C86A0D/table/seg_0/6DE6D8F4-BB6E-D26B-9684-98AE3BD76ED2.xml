@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DE6D8F4-BB6E-D26B-9684-98AE3BD76ED2" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PROMOTION_CATEGORIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PROMOTION_CATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4BD61592-F520-85F0-0603-72545A10467B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROMO_CATEGORY_ID" id="519EA2C9-B680-0C20-1781-D86100E59CDA">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTION_CATEGORIES</sourceObjSchema>
+<sourceObjName>PROMO_CATEGORY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>48835687-B543-C304-6C4C-4DD573C78063</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMO_CATEGORY" id="2183BC17-4931-F268-C9CA-B36678EF6F54">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>PROMOTION_CATEGORIES</sourceObjSchema>
+<sourceObjName>PROMO_CATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>CB1D6136-9F10-B4F1-0B59-97A9BA20B2D0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="787FB980-69FA-C36E-667E-5A237DA50A53" name="PROMOTION_CATEGORIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_PROMOTION_CATEGORIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BDC69B80-2990-6A2C-FA3D-A839AA404771</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="519EA2C9-B680-0C20-1781-D86100E59CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A471132-4D2C-A7EE-23C7-D4AF39C14155" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PROMOTION_CATEGORIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PROMOTION_CATEGORIES_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>875A6971-67D1-51CD-5D17-C752A1213D58</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="519EA2C9-B680-0C20-1781-D86100E59CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

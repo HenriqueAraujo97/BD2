@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED962962-467B-8DF0-3262-5257CC2C5BE5" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="CITIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>CITIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>04FA1215-8C77-0079-51F0-66F4192E0FF7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CITY_ID" id="86F4A613-EEAE-8075-ECEB-2F560B33B6B7">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CITIES</sourceObjSchema>
+<sourceObjName>CITY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C02B65FD-DB6E-A5FA-F77B-DF6947015108</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="BD54D145-0BBC-4769-9380-EDD302639015">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CITIES</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>622D1D49-55FC-0275-476C-9C5555E349E2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_PROVINCES_STATE_PROVINCE_ID" id="F2767AFE-4C21-B8EA-F672-1E18F21A6AF1">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CITIES</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E9B8ED05-2867-E88E-558C-290B562FF341</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E040402-9029-28A8-CC9B-B3AE25EE0989" referredColumn="113D3338-8754-BE4A-70FA-759281A578D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53177996-61C7-FE1A-9C25-D54E6D24FFEC" name="CITIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CITIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8E13F754-201A-4D80-6444-05DBDC0BFDFB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F4A613-EEAE-8075-ECEB-2F560B33B6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12D62E08-C5C9-372F-DB9A-7BE12379A8E9" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="CITY_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>CITY_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8EFF8307-9185-63B3-8738-9A1287809C49</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F4A613-EEAE-8075-ECEB-2F560B33B6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51B54E41-3BC2-748D-6E14-C7EE92B195FD" name="CITIES_STATE_PROVINCES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2767AFE-4C21-B8EA-F672-1E18F21A6AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

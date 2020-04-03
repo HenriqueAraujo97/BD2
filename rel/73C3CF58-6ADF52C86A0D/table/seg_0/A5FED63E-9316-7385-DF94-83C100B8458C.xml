@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5FED63E-9316-7385-DF94-83C100B8458C" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="COUNTRIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>COUNTRIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[country dimension table (snowflake)]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C5EA72C7-0DBC-6619-97AC-A64891052168</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="BABC460B-5B12-A5E3-6195-9347C40D859C">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>6BFAE03B-0385-73C5-03C5-75E94DEFFBDF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="846627CC-71F5-119E-EE1B-9CEBA15F8FF7">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_NAME</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[country name]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BD57717E-2EB0-5DA4-0492-633A42DA5289</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_COUNTRY_NAME_COUNTRIE</notNullConstraintName>
+</Column>
+<Column name="COUNTRY_SUBREGIONS_COUNTRY_SUBREGION_ID" id="AE5AB68F-0DBB-0A5F-3677-5C97BE462DF8">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_SUBREGION</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[e.g. Western Europe, to allow hierarchies]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>CF60D85D-7167-C4B9-97C2-D4E25EF6AE29</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48E94363-4AAB-E7C5-E31C-F26037362C25" referredColumn="18FA650D-31C6-EBB2-7755-552DC992FB8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCE3F980-B9EF-5277-6450-5EF1543CFF6C" name="COUNTRIES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_COUNTRIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>26554A96-CB6C-E6BF-3466-389D2A79BC0F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BABC460B-5B12-A5E3-6195-9347C40D859C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6655456-6A22-CFC7-90D3-58F8DD7FBC48" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_COUNTRIES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_COUNTRIES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E462C7C6-DCD2-3717-DDA7-40386926EA06</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BABC460B-5B12-A5E3-6195-9347C40D859C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BF665D1-EF74-226C-A9F4-3607477C8E07" name="COUNTRIES_COUNTRY_SUBREGIONS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE5AB68F-0DBB-0A5F-3677-5C97BE462DF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

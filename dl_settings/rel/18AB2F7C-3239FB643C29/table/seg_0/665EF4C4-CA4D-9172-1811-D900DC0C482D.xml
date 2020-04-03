@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="665EF4C4-CA4D-9172-1811-D900DC0C482D" name="bdii_1012531.currency">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>7E8B6211-BFED-F5C4-3CF4-7F89AB8655C4</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9610E629-AFA6-C84E-E526-444908C912DF">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>51617C42-44A9-F249-BCDE-C455AF7745BF</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="669F388D-2FD3-7E7A-3C28-413988E97358">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>0EB1B770-74C7-FA18-2987-00B9E736EDFC</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCRIPTION" id="D8DA97C0-1818-3CA2-139F-96B6B3DDDE17">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>1FBA8DA7-4E1F-3A1C-94B5-2816B90E01F1</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bdii_1012531.currency.values_ID" id="4FD17D35-3CDF-088D-92DA-3C81115C462D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>76E2AFFC-FF3A-7992-380B-0A66499FC5C2</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1B3A5B6-E824-127F-BD32-7B3D6940CADC" referredColumn="58036512-67EF-F306-6C5A-4B93AD1CF3D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="734DEF42-E535-6516-6D25-589602358CFB" name="bdii_1012531.currency_PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>831ABF44-E38D-79FF-E924-7F5EFA7ACAAB</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9610E629-AFA6-C84E-E526-444908C912DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C1A259-AF80-68A6-87D8-6D7193A6597F" name="bdii_1012531.currency_bdii_1012531.currency.values_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<generatorID>CF1DA3AB-8133-F06A-0720-5ACF13EFA251</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FD17D35-3CDF-088D-92DA-3C81115C462D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="BDII_1012531" directorySegmentName="seg_0" id="C0879A52-0898-9D73-AD3E-9A2E6175D485">
+<sourceConnName>bdii_1012531</sourceConnName>
+<sourceObjName>BDII_1012531</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-18 09:55:32 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="ACEB8C8E-7176-E60B-294F-6B8B85D1B988">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-18 09:55:36 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>698DACF1-956F-2AB8-518A-E95FEE7B9063</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="62CAF8E4-B495-4159-2CAD-B2A5A6405436">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-18 09:55:36 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E97BB175-F624-9B6B-170B-D2B95E0218FC</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

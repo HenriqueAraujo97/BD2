@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SUPPLEMENTARY_DEMOGRAPHICS" directorySegmentName="seg_0" id="DFFDBD3A-23B7-F873-8F07-683F6B0FD4B7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E6428372-1FFD-7E4E-0D61-6E83A92B10D0</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HOUSEHOLD_SIZE" id="3F56CBC8-3456-8848-5F3F-24F79006A98F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OS_DOC_SET_KANJI" id="4D098D94-9C5E-865C-ABAF-B0FF1596B24D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OCCUPATION" id="66985AE2-2556-9861-00F5-488F0EDCC406">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YRS_RESIDENCE" id="6BBEFAFD-C52E-0A4C-726A-F1200B386396">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENTS" id="6D1075E4-E28E-4A12-B5DD-86974A1F64FE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMERS_CUST_ID" id="727EEBC8-1A66-E533-E7DE-C02C4E430538">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKKEEPING_APPLICATION" id="80B6350E-5E37-0A52-1E45-AE02FEC735F7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLAT_PANEL_MONITOR" id="8D78CF2A-D6E7-9410-9926-7FE0D212EEE2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_THEATER_PACKAGE" id="9060AEF5-5314-89AD-5B46-FFBCBBF2253F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BULK_PACK_DISKETTES" id="99F3306B-15CD-C104-34B6-33B1E02C7750">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Y_BOX_GAMES" id="9EA2BF4E-7412-067C-D156-3096BA7A04A2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AFFINITY_CARD" id="B0B10B32-49FA-65AD-1372-4E0B7A5D95A7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EDUCATION" id="D8B8FD71-F77C-71C9-765C-E67DBD4EC304">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRINTER_SUPPLIES" id="FF3AC7CE-8A69-94A9-C599-5FB3F7E62F90">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUP_TEXT_IDX" id="0250E67A-271C-337E-0798-728D03868033">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<segment>6F4F28D9-54F6-7D28-23F4-7FF40C1299B6</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUPP_DEMO_PK" id="8EE50221-E118-4DC0-3BCA-A5E36777A061">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<segment>7976EB39-EF58-9A33-E4F5-C3C56D9A3851</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SUPPLEMENTARY_DEMOGRAPHICS_CUSTOMERS_FK" id="031FA237-AAFD-A3D6-1FB8-00EB697A5DC0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLEMENTARY_DEMOGRAPHICS_PK" id="26EE9C83-445D-C365-D5BB-3A927C84B034">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:21 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<segment>7976EB39-EF58-9A33-E4F5-C3C56D9A3851</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<existingIndex>8EE50221-E118-4DC0-3BCA-A5E36777A061</existingIndex>
+<indexSegment>7976EB39-EF58-9A33-E4F5-C3C56D9A3851</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

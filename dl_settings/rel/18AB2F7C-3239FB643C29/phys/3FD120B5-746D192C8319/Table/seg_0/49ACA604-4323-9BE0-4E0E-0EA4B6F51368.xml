@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SUPPLIERS" directorySegmentName="seg_0" id="49ACA604-4323-9BE0-4E0E-0EA4B6F51368">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>742F7F77-BA3D-348B-B239-F4FE0B405688</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="A83A88B0-3195-88BF-47CA-031E03908115">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="B374711E-7464-B7F4-B066-50409EECA843">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="EE08234A-A560-A1C7-D2C1-A7897DBCE85F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SUPPLIER" id="FB7B9FED-186A-4950-CEFB-752E18400CBA">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<schemaObject>98DE78D4-9E84-13B5-01AB-4207C8CDE14D</schemaObject>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIERS_PK" id="70ECBE52-C8E1-53F0-C57B-C55E2BBAC098">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:21 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<segment>D39FB4FB-B9AC-98AF-997C-27520F90B480</segment>
+<tableSpace>E6223735-E2F8-F5F3-EF75-43A6C9266F96</tableSpace>
+<existingIndex>FB7B9FED-186A-4950-CEFB-752E18400CBA</existingIndex>
+<indexSegment>D39FB4FB-B9AC-98AF-997C-27520F90B480</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

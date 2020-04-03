@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4A191F2-C25A-3F23-4975-4B93C7D7C0B8" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="BUYS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>72599708-080E-46D9-E2C3-723BD21062F4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIERS_SUPPLIER_ID" id="E74B6AEA-E0E5-BD3C-777E-97C1148D6CE3">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>643998CF-AB07-FE07-162B-6703457CF315</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F118A61B-9B4A-C4EA-A7D1-E0C6BBDBEEF3" referredColumn="B2CF8F7A-A3B3-1273-E92B-5E7B0B2A1416"/>
+</associations>
+</Column>
+<Column name="BUY_DATE" id="7C510C70-1352-FCC5-6349-032E6ACC9B42">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS</sourceObjSchema>
+<sourceObjName>BUY_DATE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>72780545-07D7-FA46-67BD-6281A070578C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES_EMPLOYEE_ID" id="DE8F9448-C57F-C5F5-9081-453E6B066080">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>9E75F03A-CF7B-429B-284F-3FE0047A62C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D45D83B4-C7BE-1FEF-9AB5-36D559010BFA" referredColumn="CA8B2F2D-D033-3A29-D9B0-9AB723AC5CD0"/>
+</associations>
+</Column>
+<Column name="BUY_ID" id="2C45F31E-10B0-D7D7-CFF7-B9FD2A8EB81B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS</sourceObjSchema>
+<sourceObjName>BUY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E386A97F-C623-9A7C-A820-88AA5D78CE60</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BBD220A-7BF0-8F85-22C4-0F2ABAD71DD7" name="BUYS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_BUYS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>DA1313EF-4785-4D3D-06AA-33FE05825D46</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C45F31E-10B0-D7D7-CFF7-B9FD2A8EB81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B69F3501-075F-0D10-8EAF-50C6E88273E2" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="BUYS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>F6D6458F-FF58-FF71-F603-C90E78AD721B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C45F31E-10B0-D7D7-CFF7-B9FD2A8EB81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F93BB4-FA95-B014-2259-6E1ECFA40802" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="RELATIONSHIP_11_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>RELATIONSHIP_11_FK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>CF70023F-E9EB-FDE8-AA75-61102B628AF6</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74B6AEA-E0E5-BD3C-777E-97C1148D6CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16C2FE14-B119-28B8-9AC6-AC9B39ADB291" name="BUYS_EMPLOYEES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE8F9448-C57F-C5F5-9081-453E6B066080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B76EB8D-1BDD-603C-93A4-21D91E86E2BB" name="BUYS_SUPPLIERS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74B6AEA-E0E5-BD3C-777E-97C1148D6CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

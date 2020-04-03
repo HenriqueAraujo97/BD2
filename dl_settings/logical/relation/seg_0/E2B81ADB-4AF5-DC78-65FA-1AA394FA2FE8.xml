@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BUYS" directorySegmentName="seg_0" id="E2B81ADB-4AF5-DC78-65FA-1AA394FA2FE8">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>353B9AEA-4469-8F81-68D0-D4332BFB6FE8</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<sourcePk>BFBA4F0E-13D0-BEAD-A4C2-95849D5210A1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C53F5C0-D6C2-B69E-7823-9AEB49427331</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36D3FDA7-4CE2-CCE4-953C-A09AAD3741A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

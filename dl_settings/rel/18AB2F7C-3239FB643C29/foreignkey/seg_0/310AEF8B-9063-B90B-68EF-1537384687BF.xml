@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="310AEF8B-9063-B90B-68EF-1537384687BF" containerWithKeyObject="67FCDE10-205A-9D0C-6347-8FE0EE70F815" localFKIndex="4EBD3020-A442-1023-BEBC-52996EA01533" name="SUB_CATEGORIES_CATEGORIES_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_SUB_CATEGORIES_CATEGORY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<referredTableLongName>OLTP_2020.CATEGORIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A91AAC3-2C14-AC54-D7D7-250E0501B216</referredTableID>
+<keyObject>6056DE5E-7A5C-9370-3F8A-6B68EC12248E</keyObject>
+<referredKeyID>6056DE5E-7A5C-9370-3F8A-6B68EC12248E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

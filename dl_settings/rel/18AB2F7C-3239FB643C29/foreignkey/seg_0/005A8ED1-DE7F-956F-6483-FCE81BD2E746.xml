@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="005A8ED1-DE7F-956F-6483-FCE81BD2E746" containerWithKeyObject="6F1D2318-6044-D0BF-D4FE-987F701EFFAF" localFKIndex="B27B1B6A-2BB7-407C-584A-8A348AD57DD8" name="COUNTRY_SUBREGIONS_COUNTRY_REGIONS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_COUNTRY_SUBREGION_C_REGION</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<referredTableLongName>OLTP_2020.COUNTRY_REGIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE79E2F8-D45A-6C6D-BEF1-B9711CF64A16</referredTableID>
+<keyObject>A26B727C-3E67-8EE0-E3E3-49746842A6AA</keyObject>
+<referredKeyID>A26B727C-3E67-8EE0-E3E3-49746842A6AA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COUNTRY_REGION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

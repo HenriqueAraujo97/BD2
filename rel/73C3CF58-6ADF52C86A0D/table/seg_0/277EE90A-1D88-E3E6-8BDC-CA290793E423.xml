@@ -1,0 +1,499 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="277EE90A-1D88-E3E6-8BDC-CA290793E423" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SALES">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[facts table, without a primary key; all rows are uniquely identified by the combination of all foreign keys]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0D0F5251-9CF5-3EA6-F46B-0836D5F1761A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERS_CUST_ID" id="6D754DF8-34CC-B498-703E-DA23D10B14FC">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CUST_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>DF0B1145-0562-9331-4386-522DB9B4D8D6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4362285-CD96-4258-7FB9-02083A14C624" referredColumn="03F315A1-6BC6-9A3D-71CE-22FA150D7D14"/>
+</associations>
+</Column>
+<Column name="CHANNELS_CHANNEL_ID" id="B3473843-39E0-21F0-EB4F-714117C1AF82">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CHANNEL_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E6BB4669-B635-789A-8AFF-FAE4BF3D36E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CF2B20E-07A0-8955-F98B-3AB612FBF876" referredColumn="896E777F-F62A-3C58-1728-85D791DC48FC"/>
+</associations>
+</Column>
+<Column name="SALE_DATE" id="7A05EC83-B705-429F-B3FD-1D470D5C0C1E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SALE_DATE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E143E797-F917-8E04-F706-3EE2B9BEE2BA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES_EMPLOYEE_ID" id="561F06A1-609F-886E-377B-F4ED84147717">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>2899CCB5-FDB8-AACF-7F30-C270D20800BB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23263943-BE23-C8EE-422B-D9EC709D0266" referredColumn="CA8B2F2D-D033-3A29-D9B0-9AB723AC5CD0"/>
+</associations>
+</Column>
+<Column name="SALE_ID" id="0BF7A9B6-4AF1-E5FD-8813-2EAC630999F6">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SALE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>F370092C-E900-A15D-E6D0-3D6F3FC2AF50</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_ID" id="B137DC5F-D05C-9FD7-1165-904A12CFE3D1">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>STORE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4CE3D936-918F-D041-25F5-13332BFA3495</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DONATION_ID" id="5B872C18-B9DA-B070-9E2C-6B7DBE7B8C1B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>DONATION_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>AB3E9D72-A905-A392-8E9B-6AF936C29ED9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="1DD28B0B-577C-5A3E-9C17-D1A5C8DE92F5">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>ORDER_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>BB34F63B-45F2-B456-D361-5C6111F9C993</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIVERY_ID" id="C64B8B60-AD22-ABE7-CFC1-FAC569623162">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>DELIVERY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>8560730D-4010-94C9-CFAB-A94B1C3D93FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_PROMOTION_ID" id="1DD7F73D-8F0A-31C1-F886-A3CBD4D0A686">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>STORE_PROMOTION_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>F93A6952-C2DB-24CB-F563-157F66353A64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_ID" id="CD14B15F-9126-2EFB-4665-B0C9E11B5DE0">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>STATUS_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>A77BB45D-2686-E563-F8AA-34FDC5BF99DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_ID" id="9D514887-41DE-C0EE-1032-3314BFE894FE">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CURRENCY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>1D19B6EC-5607-44F6-9A2F-747AAAD6A1CC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_RATE" id="F69B4CF9-24EB-C30F-EC10-64E702B3FA2F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CURRENCY_RATE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>265E1D4D-04C9-BBCF-B7DB-5BC8ACA663FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDIT_COMPANY_ID" id="33959C47-90E0-97DD-92F3-E9CA204EDEBE">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CREDIT_COMPANY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>B8364807-F3E7-FD76-92E0-E4A4E109AF59</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_METHOD_ID" id="9C64A3EE-7547-77E7-4213-5BFA9F672AB4">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>PAYMENT_METHOD_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>524E500E-94D4-D339-5438-C114BB35EDA2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDIT_LIMIT_ID" id="369F4F7F-16C2-7168-AB38-726AF9AD13FF">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CREDIT_LIMIT_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>15F84D84-3DF4-AAFE-73E3-C7D5A10DCA4B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEATHER_ID" id="0DCCA30D-8623-C396-32AE-A3486E6027D1">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>WEATHER_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>614EA9FF-2866-19AA-8694-A2C8014E6519</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARKETING_ID" id="059A68F4-88E5-D416-B48F-7807F3855964">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>MARKETING_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E210B542-0BFD-9A95-84D9-ADB1BA863F07</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIVERY_COMPANY_ID" id="28467C61-20AC-6022-85D0-73EF6C69D65A">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>DELIVERY_COMPANY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>D0E31171-7B03-43C4-10D4-39CACEC2C58E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALESMAN_FLEET_ID" id="01AC565E-923B-12C2-CEBF-B45FC0A0D3F6">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>SALESMAN_FLEET_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>28C2C40E-A88E-AA6E-3262-C1E807072C3A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRIBUTION_ID" id="2406F85B-FEEE-F5CA-8ECE-B3BD8BA9A95E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SALES</sourceObjSchema>
+<sourceObjName>CONTRIBUTION_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>D9082389-9555-F6B8-CEBB-C35B9D8F9FD3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BDII_1012531.CURRENCY_ID" id="BDAB6655-937F-4640-5CB3-081C0537FEB2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-26 21:14:13 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BDII_1012531.CURRENCY_ID1" id="6DD76A04-81C2-CC1D-E05C-0FC70A7E0A75">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-26 21:20:58 UTC</createdTime>
+<generatorID>C44357E0-97D3-FBEF-6A0D-509CAB7C0377</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="536B9FED-5A62-2E6C-D9AB-8031583F0608" name="SALES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_SALES</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>85A55142-9784-CBDF-AC26-689313A0E2AC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF7A9B6-4AF1-E5FD-8813-2EAC630999F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E100BB26-1F55-5005-CB4B-256A9C6352D3" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SALES_CHANNEL_ID">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES_CHANNEL_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C94ACACF-E361-49B7-9F89-9B93A5CEDAE2</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3473843-39E0-21F0-EB4F-714117C1AF82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="205037B8-3CAD-3081-48E1-82E85D536CB1" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SALES_CUSTOMER_FK_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES_CUSTOMER_FK_FK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E039B255-71FF-3918-4036-5B1EDF151887</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D754DF8-34CC-B498-703E-DA23D10B14FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="306CB353-B27E-7AA0-A800-5F606D5C0281" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SALES_EMPLOYEE_ID">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES_EMPLOYEE_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>CBD2FE7E-5C54-4464-9D52-C5AF56F662DB</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="561F06A1-609F-886E-377B-F4ED84147717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AACD5CBD-7EBE-1D02-E895-A3813FDAEA2A" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SALES_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SALES_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>F0E02E57-CC2D-27A7-3913-C0DA8E1C4F25</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF7A9B6-4AF1-E5FD-8813-2EAC630999F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B81EFAE-063C-C412-37EE-5201509BDBF2" name="SALES_CHANNELS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3473843-39E0-21F0-EB4F-714117C1AF82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28A56E8F-A61A-B2BF-AD86-E0A270E53B33" name="SALES_CUSTOMERS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D754DF8-34CC-B498-703E-DA23D10B14FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D7A0681-CE77-7BE6-78DE-4E690B96B637" name="SALES_EMPLOYEES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="561F06A1-609F-886E-377B-F4ED84147717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

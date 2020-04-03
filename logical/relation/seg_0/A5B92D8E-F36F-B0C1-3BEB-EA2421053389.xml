@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_COUNTRY_SUBREGION_C_REGION" directorySegmentName="seg_0" id="A5B92D8E-F36F-B0C1-3BEB-EA2421053389">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:35:43 UTC</createdTime>
+<generatorID>3439F8A1-E96C-EE3D-3DD7-E527514EB57C</generatorID>
+<ownerDesignName>BD2</ownerDesignName>
+<engineerTo>
+<item key="73C3CF58-BE60-115C-8C94-6ADF52C86A0D" value="true"/>
+</engineerTo>
+<sourcePk>45340572-B68C-5574-875E-B88269C771AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>222A78E4-6194-E741-048D-2EFE87206799</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE0896BD-6391-CC86-620F-D559F9ACEFD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

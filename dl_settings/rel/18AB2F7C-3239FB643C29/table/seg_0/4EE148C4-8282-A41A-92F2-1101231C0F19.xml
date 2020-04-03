@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EE148C4-8282-A41A-92F2-1101231C0F19" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="BUYS_ROWS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS_ROWS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTS_PROD_ID" id="AA6A05D6-9316-D4EA-E7E4-69D3EE78C123">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA3ADE1-E76F-77BC-C388-D5FE69DAADDD" referredColumn="68E58011-607C-7B60-B31E-C0A51C45649B"/>
+</associations>
+</Column>
+<Column name="UNIT_COST" id="D452E006-2429-A5FC-DC62-968C1866A4C3">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>UNIT_COST</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="9B20D6AD-CADB-2C05-A500-FC9A24BE76A1">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY_BOUGHT" id="F636FD74-2C74-C4F3-A055-B2709B359E01">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>QUANTITY_BOUGHT</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUYS_BUY_ID" id="FA99171B-7E47-4B13-8330-B861508A46C9">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>BUY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353B9AEA-4469-8F81-68D0-D4332BFB6FE8" referredColumn="741ACFA7-EFF7-CB1A-858B-BF4321911FF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4209BCB3-A0F0-922D-C104-F52BC39AE705" name="BUYS_ROWS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_BUYS_ROWS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:20 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA99171B-7E47-4B13-8330-B861508A46C9"/>
+<colUsage columnID="AA6A05D6-9316-D4EA-E7E4-69D3EE78C123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F19AAD4-4C56-0DD9-F2D8-A8E676BE29E5" schemaObject="98DE78D4-9E84-13B5-01AB-4207C8CDE14D" name="BUYS_ROWS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS_ROWS_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:18 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA99171B-7E47-4B13-8330-B861508A46C9"/>
+<colUsage columnID="AA6A05D6-9316-D4EA-E7E4-69D3EE78C123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="754E2C76-ABD4-D92A-0C49-EC1CC11469D5" name="BUYS_ROWS_BUYS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA99171B-7E47-4B13-8330-B861508A46C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="766E5B4B-FDA8-6CF6-9323-716027379368" name="BUYS_ROWS_PRODUCTS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:18:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA6A05D6-9316-D4EA-E7E4-69D3EE78C123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

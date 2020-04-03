@@ -1,0 +1,314 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A793C5-8EE7-2633-E185-35DC4CDDA3E6" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="CUSTOMERS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>CUSTOMERS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[dimension table]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>94D1036C-49A6-28D5-5E85-415A40360B8A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="03F315A1-6BC6-9A3D-71CE-22FA150D7D14">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>392B591A-A30D-DE0E-247F-525B0115DC77</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FIRST_NAME" id="1AAC7C80-C495-9799-93A2-31B4B0F5E807">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_FIRST_NAME</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[first name of the customer]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>EF42E6E9-EC6B-2DEE-1A18-D0CE827AF3F4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_CUST_FIRST_NAME_CUSTOMER</notNullConstraintName>
+</Column>
+<Column name="CUST_LAST_NAME" id="B2A89C01-1DFE-42FA-E366-F193C44EDABC">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_LAST_NAME</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[last name of the customer]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>AC5DC1C8-FA20-3D99-40DE-CA90B783E87F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_CUST_LAST_NAME_CUSTOMER</notNullConstraintName>
+</Column>
+<Column name="CUST_GENDER" id="86700A75-7CD1-C835-6BF8-BD5B015DE392">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_GENDER</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender; low cardinality attribute]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>332AFD1D-80AF-DC8C-C538-763700EB9CCC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_YEAR_OF_BIRTH" id="0D0D86BD-DC14-B0CB-F248-13DB0A572CBF">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_YEAR_OF_BIRTH</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer year of birth]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>56F02B6D-8F38-46CD-21D8-3C9ECD7077E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_MARITAL_STATUS" id="393EBE96-FAD2-69B5-7F56-76AC156C900F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_MARITAL_STATUS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer marital status; low cardinality attribute]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>9C3EAE1A-5D6F-7257-473C-E751AE132641</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STREET_ADDRESS" id="11E59AF6-313D-3831-4F2D-7E2ED6EDA4F6">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_STREET_ADDRESS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer street address]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>41895EA9-5B9D-9245-EB9E-23EB7BA36213</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_CUST_STREET_ADDRE_CUSTOMER</notNullConstraintName>
+</Column>
+<Column name="CUST_POSTAL_CODE" id="2747480E-C3F3-6226-D79A-10856F27CB9F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_POSTAL_CODE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[postal code of the customer]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>61E37A1F-0144-9000-B672-0EE4D9CFDB2D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CKC_CUST_POSTAL_CODE_CUSTOMER</notNullConstraintName>
+</Column>
+<Column name="CUST_MAIN_PHONE_NUMBER" id="E846574B-FD67-3E39-DBC3-317173E9BC95">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_MAIN_PHONE_NUMBER</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer main phone number]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>1209017C-0B87-301A-DA4E-1394214C31BB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_INCOME_LEVEL" id="46DF0DB5-6AC0-6B4D-971B-33D88CFB77E8">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_INCOME_LEVEL</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer income level]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>AD062FA1-7629-0C4D-B379-181B3DFD05A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CREDIT_LIMIT" id="D13251DB-F0F7-E064-C29F-03DDD6E6C904">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_CREDIT_LIMIT</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer credit limit]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C1BA36C9-03C4-B32F-925C-4E172B6C8894</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EMAIL" id="8CEEBDAD-F313-EF8A-56FB-BDDFD19417FD">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_EMAIL</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer email id]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>A5961D53-CB57-5303-15E0-C7153468D2F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_TOTAL" id="9BA5C1F9-91F6-8D7A-9EC6-925FB921EE7E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_TOTAL</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer total amount spend]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>81F4E24E-F7E9-B483-73C8-4763675118A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITIES_CITY_ID" id="87BE6AC6-026B-8A45-462D-ACBD0F92ECA0">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_CITY</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer city]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>0503A68C-602E-C5AF-B146-A8BB763CF4CB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33D2B8EA-05CE-A385-4947-5944AD44C86F" referredColumn="86F4A613-EEAE-8075-ECEB-2F560B33B6B7"/>
+</associations>
+</Column>
+<Column name="CUST_MONTH_OF_BIRTH" id="930C299B-C28B-5EE0-F239-3AFA57432BF9">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUST_MONTH_OF_BIRTH</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer month of birth]]></commentInRDBMS>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>C139C9A8-BA35-9FAD-487A-554B1FF534F9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59549C62-7D00-B07E-A50D-FB780C576AE3" name="CUSTOMERS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CUSTOMERS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4F2BDBF7-2146-425C-211F-C0440E9BB5D8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F315A1-6BC6-9A3D-71CE-22FA150D7D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D908E22-F95C-AF12-32B0-2BE6E606F63F" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_CUSTOMERS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_CUSTOMERS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>66DD2247-7972-2846-0BD0-849F6CF71CCC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F315A1-6BC6-9A3D-71CE-22FA150D7D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="249CAC34-7FF8-2ED3-B533-B6FDCC21050C" name="CUSTOMERS_CITIES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BE6AC6-026B-8A45-462D-ACBD0F92ECA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

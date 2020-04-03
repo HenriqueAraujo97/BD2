@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMERS" directorySegmentName="seg_0" id="E0A793C5-8EE7-2633-E185-35DC4CDDA3E6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B04A08F3-95C0-CE5C-7A65-AD1588A7B09B</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUST_ID" id="03F315A1-6BC6-9A3D-71CE-22FA150D7D14">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_YEAR_OF_BIRTH" id="0D0D86BD-DC14-B0CB-F248-13DB0A572CBF">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_STREET_ADDRESS" id="11E59AF6-313D-3831-4F2D-7E2ED6EDA4F6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_FIRST_NAME" id="1AAC7C80-C495-9799-93A2-31B4B0F5E807">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_POSTAL_CODE" id="2747480E-C3F3-6226-D79A-10856F27CB9F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MARITAL_STATUS" id="393EBE96-FAD2-69B5-7F56-76AC156C900F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_INCOME_LEVEL" id="46DF0DB5-6AC0-6B4D-971B-33D88CFB77E8">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_GENDER" id="86700A75-7CD1-C835-6BF8-BD5B015DE392">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_CITY" id="87BE6AC6-026B-8A45-462D-ACBD0F92ECA0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_EMAIL" id="8CEEBDAD-F313-EF8A-56FB-BDDFD19417FD">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MONTH_OF_BIRTH" id="930C299B-C28B-5EE0-F239-3AFA57432BF9">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_TOTAL" id="9BA5C1F9-91F6-8D7A-9EC6-925FB921EE7E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_LAST_NAME" id="B2A89C01-1DFE-42FA-E366-F193C44EDABC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_CREDIT_LIMIT" id="D13251DB-F0F7-E064-C29F-03DDD6E6C904">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MAIN_PHONE_NUMBER" id="E846574B-FD67-3E39-DBC3-317173E9BC95">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CUSTOMERS" id="0D908E22-F95C-AF12-32B0-2BE6E606F63F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<schemaObject>85768904-59D5-CF1D-02CD-90E83D3E45EC</schemaObject>
+<segment>BA726EF0-1B6F-6D0E-DFBC-7902F7929578</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMERS_CITY" id="249CAC34-7FF8-2ED3-B533-B6FDCC21050C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUSTOMERS" id="59549C62-7D00-B07E-A50D-FB780C576AE3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<segment>BA726EF0-1B6F-6D0E-DFBC-7902F7929578</segment>
+<tableSpace>181D2987-078D-BA62-9BA5-04DECED80E64</tableSpace>
+<existingIndex>0D908E22-F95C-AF12-32B0-2BE6E606F63F</existingIndex>
+<indexSegment>BA726EF0-1B6F-6D0E-DFBC-7902F7929578</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CITIES_STATE_PROVINCE" directorySegmentName="seg_0" id="B0D6B349-7DD1-69B5-216E-843D74D62C70">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:22:20 UTC</createdTime>
+<generatorID>5AD10321-5EC5-1008-8022-9E227033EA77</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<sourcePk>6E0447BD-C0FC-C752-87B6-51BDA614CF14</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C6179C3-ACC1-2A59-B4B5-F0E8ED1AE7B2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CFBAA548-4B57-44D6-C2EB-A5F67BABED47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

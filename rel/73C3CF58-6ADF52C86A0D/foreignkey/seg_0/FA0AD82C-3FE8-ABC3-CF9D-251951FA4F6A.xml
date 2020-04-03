@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA0AD82C-3FE8-ABC3-CF9D-251951FA4F6A" containerWithKeyObject="610013EC-6189-21CA-AF91-7E256B479C4D" localFKIndex="8FD22C71-4CC3-419C-7371-E225F3002FFE" name="BUYS_ROWS_BUYS_FK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>FK_BUYS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>DCEEC5AF-4E57-CFCF-E5D6-2585C04CDA19</importedID>
+<referredTableLongName>OLTP_2020.BUYS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4A191F2-C25A-3F23-4975-4B93C7D7C0B8</referredTableID>
+<keyObject>7BBD220A-7BF0-8F85-22C4-0F2ABAD71DD7</keyObject>
+<referredKeyID>7BBD220A-7BF0-8F85-22C4-0F2ABAD71DD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BUY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

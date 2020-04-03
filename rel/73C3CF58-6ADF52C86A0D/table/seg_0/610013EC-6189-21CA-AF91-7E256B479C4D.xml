@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="610013EC-6189-21CA-AF91-7E256B479C4D" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="BUYS_ROWS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS_ROWS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>D2957206-04C3-3DF5-D591-86F1EC940B51</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTS_PROD_ID" id="E4B4CE0A-3233-CE84-1BAF-E809403B4E5E">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>5CB5F057-2C88-F11D-F193-1ACF40043DD0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7565376-F239-1141-F255-44887B1F766F" referredColumn="4DEDCE1D-1671-F976-234D-72309E091DC5"/>
+</associations>
+</Column>
+<Column name="UNIT_COST" id="A9CF8E3D-E275-48B2-D7F1-6BFCE07DD403">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>UNIT_COST</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>4CD52D10-2D91-593C-ECEE-020228A87652</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="FB6FF9D0-FA5F-9CE3-4148-34E2B28EDC7F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>D2757669-28C7-D93F-9525-4A5D9EE26411</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY_BOUGHT" id="9DAA0DE6-0FF4-AF19-6249-DD74A749FB81">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>QUANTITY_BOUGHT</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>73CE876C-1A56-BBF1-3024-89F0633F596F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUYS_BUY_ID" id="E9241682-B89C-43F0-CEA2-12AB98977398">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>BUYS_ROWS</sourceObjSchema>
+<sourceObjName>BUY_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>140E32B4-F2CA-829F-C9D2-07B29CE15A2D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA0AD82C-3FE8-ABC3-CF9D-251951FA4F6A" referredColumn="2C45F31E-10B0-D7D7-CFF7-B9FD2A8EB81B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2549B3BC-66B5-862B-8107-6985BCF570C5" name="BUYS_ROWS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_BUYS_ROWS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>98E4FDE6-17AF-8EAC-159F-CAABEA235D6A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9241682-B89C-43F0-CEA2-12AB98977398"/>
+<colUsage columnID="E4B4CE0A-3233-CE84-1BAF-E809403B4E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="131E119D-7383-F859-363E-BE9FA252E6E3" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="BUYS_ROWS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>BUYS_ROWS_PK</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>E55AFFED-EE07-DAC9-8253-25B858106EB4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9241682-B89C-43F0-CEA2-12AB98977398"/>
+<colUsage columnID="E4B4CE0A-3233-CE84-1BAF-E809403B4E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FD22C71-4CC3-419C-7371-E225F3002FFE" name="BUYS_ROWS_BUYS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9241682-B89C-43F0-CEA2-12AB98977398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A28A588-D625-198C-A2EA-5944141F4D20" name="BUYS_ROWS_PRODUCTS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B4CE0A-3233-CE84-1BAF-E809403B4E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

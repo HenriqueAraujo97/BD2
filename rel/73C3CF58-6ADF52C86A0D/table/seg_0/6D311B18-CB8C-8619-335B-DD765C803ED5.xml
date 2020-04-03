@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D311B18-CB8C-8619-335B-DD765C803ED5" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="SUPPLIERS">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>SUPPLIERS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>DB4F5E1F-4CCD-970D-DCB8-02B7E860ACE7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIER_ID" id="B2CF8F7A-A3B3-1273-E92B-5E7B0B2A1416">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>EF2FF66C-114C-5E7A-CE27-BD54A984771E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="FD467D35-6175-BBAC-B097-1AD7FBF6280B">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>1CED27B2-F7FA-B7FA-FFCE-4F0238AA7CAF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="A2BE7436-1398-51AC-377A-731916C8A50F">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>SUPPLIERS</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>74A4E6A3-C5E3-C249-E2C1-C84CEE6508DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="324E098F-DB0F-7A5D-1F86-25CE7C9E766B" name="SUPPLIERS_PK">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_SUPPLIERS</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>FEB4FB89-AB36-13F4-E6A0-CEE810D46712</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CF8F7A-A3B3-1273-E92B-5E7B0B2A1416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA136C5-E30C-CFCD-56E3-9AC2FE97D4AA" schemaObject="85768904-59D5-CF1D-02CD-90E83D3E45EC" name="PK_SUPPLIER">
+<sourceConnName>oltp_query</sourceConnName>
+<sourceObjSchema>OLTP_2020</sourceObjSchema>
+<sourceObjName>PK_SUPPLIER</sourceObjName>
+<createdBy>Henrique</createdBy>
+<createdTime>2020-03-17 12:27:55 UTC</createdTime>
+<ownerDesignName>BD2</ownerDesignName>
+<importedID>193F3589-83C4-D008-D2B7-94BCA4DDD6C8</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CF8F7A-A3B3-1273-E92B-5E7B0B2A1416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

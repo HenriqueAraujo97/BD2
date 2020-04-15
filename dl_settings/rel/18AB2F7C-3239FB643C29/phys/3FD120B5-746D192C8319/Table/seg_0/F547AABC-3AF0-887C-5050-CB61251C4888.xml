@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIM_DATE" directorySegmentName="seg_0" id="F547AABC-3AF0-887C-5050-CB61251C4888">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_QUARTER" id="01734915-5D9D-A37C-BD8F-D0F1B4AE668C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE" id="17EAAAC7-D37E-155E-60CE-80F07C8BD439">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_DATE_ID" id="2F41287B-97CF-4F1D-A1C2-6DB342860814">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_SEASON" id="3473DA3E-A937-4051-DECA-BDA7D4D2B12C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_MONTH" id="3E5C84F9-1996-3B3D-FC8B-66174F1F5F67">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_SEMESTER" id="915B80CA-9C84-E587-FF61-68849A53504C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_DAY_OF_WEEK" id="A130F864-8045-ABF4-B482-3314E272969E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_YEAR" id="B75BABC1-F0F1-CE0D-A779-72ADDDB10726">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_HOLIDAY_INDICATOR" id="BC534A7A-CFAB-8C24-10CC-CC130BDF52F4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_DAY_OF_YEAR" id="C9489927-7AFD-3F66-90E5-64CFE9441EBD">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_ID" id="F4E90538-DEEE-CBB1-DCC1-B39B30D26664">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_DAY_OF_MONTH" id="FABA0D91-2831-B6F1-162A-D20D2E91CE81">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_WEEKDAY_INDICATOR" id="FF2BDA3B-98D4-1C01-1CB0-E7EA8A970276">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_DATE_PK" id="FF0982B8-8307-B858-8A56-5AACA6218374">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

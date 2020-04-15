@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF8F34B0-53E9-A406-46C3-02E6385A9428" name="DIM_PRODUCTS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>51EF4900-DB1A-1D0D-A18D-5E2710C7A014</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="E321B023-71DD-008D-6DCB-D2D0B1D7811A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>35348C81-AF5F-C522-FD31-27F386993F65</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_CAT_ID" id="DF010D50-9561-C802-0B31-F75C315CC3BB">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>916148B4-6321-8AC3-CD85-4B998049755A</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_WEIGHT_CLASS" id="F8960194-F5DE-1DD6-5CF4-3A8DE791B189">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>026D09F5-10BC-BDEA-8F4E-9E4C0B1F2D7D</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_UNIT_OF_MEASURE" id="2CB423FA-412F-0CB4-6A45-D3526F4D6233">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>FF831CC0-86F1-B790-9FBF-F7BE8D482104</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_PACK_SIZE" id="25AF65C9-D7A6-2DA5-5943-80D02A5F5A11">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>48AEBE6C-3A04-48C7-F1DF-33226BEEE6A8</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_STATUS" id="471967F0-2D7F-A526-24F9-4E73286423EC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>A0CDA453-96B2-A058-154E-EF6F144CF10A</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_LIST_PRICE" id="E038C1C8-5E62-AF08-2982-690F854CC1F3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>21090A8A-D097-8642-571A-3D45DFF365E9</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_MIN_PRICE" id="37FEA562-AC41-512A-5DC7-02F7A5025DE1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>A52C40E0-668B-7377-D54F-0809CF453805</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_DESCRIPTIONS_ID" id="CC9CFEF1-58FF-1ED3-1F17-832771E6895F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>D3AEBFB2-99DB-77D3-8912-EC73C9CBA259</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_COST" id="C26628B0-3733-FC3E-6D9D-207B8ECA343C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>12350BA2-88B6-8C89-D4B6-68A5F36F3AB2</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CATEGORY" id="FEC05DAA-CB84-BCBF-D54C-17F2317CCFDE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>5CCBA489-49A9-AF56-8AB9-F8F5399CBB84</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CAT_DESC" id="815E02A4-4868-4AFA-DAA1-FDDDC09F0E49">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>9B26B647-0625-42C2-9392-274968D36AD1</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_NAME" id="080CEF82-5738-0A80-3295-5029595CAEA2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>DF7C9A9F-6BEE-B4E8-2096-8558C062F329</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_PROD_ID" id="82D2A8CA-C8BC-4218-D9C5-A3DD14E0B487">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>A73C6728-838E-FB1C-4A93-9196DBD85E9C</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FBFA156-8349-D120-3E9C-CC91B95AD156" name="DIM_PRODUCTS_PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>591B219E-BF60-FC37-55ED-3FBF31B63384</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82D2A8CA-C8BC-4218-D9C5-A3DD14E0B487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

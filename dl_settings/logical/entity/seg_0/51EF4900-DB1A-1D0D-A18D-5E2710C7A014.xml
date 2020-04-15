@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51EF4900-DB1A-1D0D-A18D-5E2710C7A014" name="DIM_PRODUCTS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:01:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PROD_ID" id="A73C6728-838E-FB1C-4A93-9196DBD85E9C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:33:32 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ID" id="35348C81-AF5F-C522-FD31-27F386993F65">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:01:34 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUB_CAT_ID" id="916148B4-6321-8AC3-CD85-4B998049755A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:01:34 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_WEIGHT_CLASS" id="026D09F5-10BC-BDEA-8F4E-9E4C0B1F2D7D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:02:29 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_UNIT_OF_MEASURE" id="FF831CC0-86F1-B790-9FBF-F7BE8D482104">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:02:45 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_PACK_SIZE" id="48AEBE6C-3A04-48C7-F1DF-33226BEEE6A8">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:03:12 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_STATUS" id="A0CDA453-96B2-A058-154E-EF6F144CF10A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:49:04 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_LIST_PRICE" id="21090A8A-D097-8642-571A-3D45DFF365E9">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:49:05 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_MIN_PRICE" id="A52C40E0-668B-7377-D54F-0809CF453805">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:49:05 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_DESCRIPTIONS_ID" id="D3AEBFB2-99DB-77D3-8912-EC73C9CBA259">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:49:05 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_COST" id="12350BA2-88B6-8C89-D4B6-68A5F36F3AB2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:49:40 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_CATEGORY" id="5CCBA489-49A9-AF56-8AB9-F8F5399CBB84">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:14:24 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_CAT_DESC" id="9B26B647-0625-42C2-9392-274968D36AD1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:14:45 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_NAME" id="DF7C9A9F-6BEE-B4E8-2096-8558C062F329">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:15:00 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="591B219E-BF60-FC37-55ED-3FBF31B63384" name="PRODUCT PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:01:42 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A73C6728-838E-FB1C-4A93-9196DBD85E9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

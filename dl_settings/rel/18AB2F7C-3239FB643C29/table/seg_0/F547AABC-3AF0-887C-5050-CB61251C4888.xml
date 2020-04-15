@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F547AABC-3AF0-887C-5050-CB61251C4888" name="DIM_DATE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>5DE47197-D28A-9EA7-7D09-3AA933ACE8ED</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATE_ID" id="F4E90538-DEEE-CBB1-DCC1-B39B30D26664">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>B1FFEADB-F20E-ACA7-4156-E5D42E271B19</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE" id="17EAAAC7-D37E-155E-60CE-80F07C8BD439">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>BDB03575-F70A-FD95-C40D-7CE5E52582F3</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DAY_OF_WEEK" id="A130F864-8045-ABF4-B482-3314E272969E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>FBB8A28B-5A69-7908-9E5F-EA4D7025B356</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DAY_OF_MONTH" id="FABA0D91-2831-B6F1-162A-D20D2E91CE81">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>49263827-2ABD-6B99-FE81-F21875CEFC13</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DAY_OF_YEAR" id="C9489927-7AFD-3F66-90E5-64CFE9441EBD">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>098075F5-AEDC-B174-CD36-1ACE1361A49B</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_MONTH" id="3E5C84F9-1996-3B3D-FC8B-66174F1F5F67">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>2BE8B50A-E8D8-F7EC-FE54-BA5B86045AF4</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_YEAR" id="B75BABC1-F0F1-CE0D-A779-72ADDDB10726">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>06478AB1-F4BB-E63C-D79C-8C5DC91D2DC3</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_SEMESTER" id="915B80CA-9C84-E587-FF61-68849A53504C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>C8CA2A52-9BC2-7777-56EE-D766CB293E1C</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_QUARTER" id="01734915-5D9D-A37C-BD8F-D0F1B4AE668C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>168B76AD-4186-63A1-E7C2-D174AC768A6B</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_SEASON" id="3473DA3E-A937-4051-DECA-BDA7D4D2B12C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>D369C8FA-54A3-565C-3937-C1DC7F7C0679</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_HOLIDAY_INDICATOR" id="BC534A7A-CFAB-8C24-10CC-CC130BDF52F4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>8F032A1C-1859-B2E6-0E84-00EF3C910E98</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_WEEKDAY_INDICATOR" id="FF2BDA3B-98D4-1C01-1CB0-E7EA8A970276">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>F5955CE4-C9BD-D182-2A9D-D07F61E10FFB</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SK_DATE_ID" id="2F41287B-97CF-4F1D-A1C2-6DB342860814">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>BC750DA0-A1A3-0823-9766-DB0838E13485</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF0982B8-8307-B858-8A56-5AACA6218374" name="DIM_DATE_PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>95215A22-CC93-60F5-E3CC-412D2C4A5C87</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F41287B-97CF-4F1D-A1C2-6DB342860814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

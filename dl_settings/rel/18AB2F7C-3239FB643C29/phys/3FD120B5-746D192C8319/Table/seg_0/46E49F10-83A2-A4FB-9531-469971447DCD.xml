@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIM_CUSTOMERS" directorySegmentName="seg_0" id="46E49F10-83A2-A4FB-9531-469971447DCD">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUST_FIRST_NAME" id="0CC65EEA-DB27-4105-A957-37A08DBD9EF7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="0F272CBB-C5A5-E40C-8FD4-A6F40E306FE3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_CREDIT_LIMIT" id="11BC9C35-2650-E625-E295-7554D0117505">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_YEAR_OF_BIRTH" id="16B679E1-0B40-B697-0A9D-3F05E4DB6662">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MARITAL_STATUS" id="280142A0-5D10-2D24-ADA0-BE56643D4818">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_INCOME_LEVEL" id="32C919BF-E737-59CC-6109-F7BF63AF9C91">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_STREET_ADDRESS" id="3D97CE47-D381-8B72-591E-644E8AF80E62">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MONTH_OF_BIRTH" id="463AF2CA-249A-45EA-EA73-85162C13ADC5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_CITY" id="4C1A9C33-F13F-93C9-EF3C-74EC4B1CD82E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_TOTAL" id="530657E5-10F3-8BC4-A4E5-880AB774B243">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_EMAIL" id="543A6B60-B511-C0DF-7233-2AE5C953D024">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_ID" id="9F4383AD-26A1-3067-B6C2-1AFBDDB30207">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_GENDER" id="C8901B95-F7BE-FBE2-B308-4A0FC45A428F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_LAST_NAME" id="CA4DC43E-537D-5F3E-F3F1-7A6AF6D2966F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_POSTAL_CODE" id="D26FB91D-0C1B-D5A7-F967-92F7BD8AA4DC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUY_DATE" id="D869F20D-0599-5C9F-78C7-2B7250E3CB71">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_MAIN_PHONE_NUMBER" id="F0F9610A-035C-77C8-AB51-69A207E2DE1D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_CUST_ID" id="FDEEE9DA-515B-6EF5-F35E-575FADB83899">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_CUSTOMERS_PK" id="9BE86A7B-2447-C9B5-7734-00FFB705F5DB">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

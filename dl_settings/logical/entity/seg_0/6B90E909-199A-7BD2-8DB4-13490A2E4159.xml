@@ -1,0 +1,283 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B90E909-199A-7BD2-8DB4-13490A2E4159" name="DIM_CUSTOMERS">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:22 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CUST_ID" id="96422CC0-DA75-5D9C-06E2-69F42862383F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:34:16 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ID" id="3E0D2E2C-2828-B7CF-71D3-D39C2DE55DA5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:32 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_FIRST_NAME" id="9227A5BB-F5D1-7DCC-40C8-D8A14CE6F5EE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:32 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_LAST_NAME" id="F000E271-052D-03FB-1913-907FDDA2E4B7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:32 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_GENDER" id="AE762F09-1EE0-7362-CB7C-3F8F14194B15">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:33 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_YEAR_OF_BIRTH" id="9AD9F946-C13A-3FE4-4649-2A2F140C5896">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:33 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_MARITAL_STATUS" id="4E2D3D9D-1037-5689-A32D-7B41285F42AE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:33 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_STREET_ADDRESS" id="F33EBA7E-616A-9BA8-EDB9-DEB53FCEB2CC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:06:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_POSTAL_CODE" id="A130C9D1-00FC-FDE8-26FE-8C8716BCDAC6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:06:26 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_MAIN_PHONE_NUMBER" id="6F42E571-6BBB-18A0-AD0A-43A746E22B0C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:38:41 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_INCOME_LEVEL" id="6C1C074D-2646-6F6C-3E62-AED19998DE4A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:38:41 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_CREDIT_LIMIT" id="7AC43598-750D-6ED7-FA5C-BB2AA1B52D2E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:38:41 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_EMAIL" id="EF438BF0-4242-853C-BD30-4C5A96DC76F1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:39:29 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_TOTAL" id="3CBE5AF6-874A-244B-E33F-3257B19BCB6D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:39:29 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_MONTH_OF_BIRTH" id="D40A1F37-333E-CDD4-8078-F49904C4A037">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-08 14:43:20 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BUY_DATE" id="62564262-2F61-A73D-9075-232177FE897F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:16:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="F87C62A6-591C-26A6-41C7-EC6ED7217449">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:16:16 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MIN_CUSTOMERS" id="1B27ED0A-648D-32CB-E93D-C46423496F5E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 14:46:57 UTC</createdTime>
+<generatorID>11766041-0AB4-62C1-0143-66B2A9653029</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<referedAttribute>35E144AA-B51C-E72B-1D52-14E71FE5F2C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BEBC5E4-540E-7F73-C05A-310307029AF5" name="CUSTOMER PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 11:04:41 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96422CC0-DA75-5D9C-06E2-69F42862383F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

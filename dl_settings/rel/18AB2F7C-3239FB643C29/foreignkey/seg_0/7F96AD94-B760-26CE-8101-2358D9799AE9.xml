@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F96AD94-B760-26CE-8101-2358D9799AE9" containerWithKeyObject="5AD8748D-E1DE-2400-96D6-DB4D70A566F1" localFKIndex="3DE4E957-C485-B267-ACCB-1CEC18D54E6B" name="FACT_SALES_DIM_CURRENCY_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>E33E7540-7EF4-8C77-3598-8F234F9A7FB5</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<referredTableLongName>DIM_CURRENCY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C9E83C6-7A31-7312-53B5-FFFBFC98DE10</referredTableID>
+<keyObject>2BB9E5E0-8637-DB6A-F2A2-86C7F52812C4</keyObject>
+<referredKeyID>2BB9E5E0-8637-DB6A-F2A2-86C7F52812C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

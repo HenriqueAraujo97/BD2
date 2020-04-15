@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIM_PRODUCTS" directorySegmentName="seg_0" id="AF8F34B0-53E9-A406-46C3-02E6385A9428">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROD_NAME" id="080CEF82-5738-0A80-3295-5029595CAEA2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_PACK_SIZE" id="25AF65C9-D7A6-2DA5-5943-80D02A5F5A11">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_UNIT_OF_MEASURE" id="2CB423FA-412F-0CB4-6A45-D3526F4D6233">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_MIN_PRICE" id="37FEA562-AC41-512A-5DC7-02F7A5025DE1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_STATUS" id="471967F0-2D7F-A526-24F9-4E73286423EC">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_CAT_DESC" id="815E02A4-4868-4AFA-DAA1-FDDDC09F0E49">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_PROD_ID" id="82D2A8CA-C8BC-4218-D9C5-A3DD14E0B487">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_COST" id="C26628B0-3733-FC3E-6D9D-207B8ECA343C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_DESCRIPTIONS_ID" id="CC9CFEF1-58FF-1ED3-1F17-832771E6895F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUB_CAT_ID" id="DF010D50-9561-C802-0B31-F75C315CC3BB">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_LIST_PRICE" id="E038C1C8-5E62-AF08-2982-690F854CC1F3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_ID" id="E321B023-71DD-008D-6DCB-D2D0B1D7811A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_WEIGHT_CLASS" id="F8960194-F5DE-1DD6-5CF4-3A8DE791B189">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROD_CATEGORY" id="FEC05DAA-CB84-BCBF-D54C-17F2317CCFDE">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_PRODUCTS_PK" id="2FBFA156-8349-D120-3E9C-CC91B95AD156">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

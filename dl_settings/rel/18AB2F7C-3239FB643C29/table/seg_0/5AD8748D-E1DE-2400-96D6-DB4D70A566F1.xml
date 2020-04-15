@@ -1,0 +1,292 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AD8748D-E1DE-2400-96D6-DB4D70A566F1" name="FACT_SALES">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>752AE30C-0708-D288-D519-7382C7A02E3B</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AMOUNT_SOLD" id="0CABB744-F91D-2EA8-C058-362C86ED72B5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>F866A8ED-6640-9C9A-4C42-2DAD43FB5AA7</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY_SOLD" id="7ED526EC-5AB3-AD0C-4021-B5633DFD88D3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>9BA0C675-B223-F933-0B8D-765DC21FF02A</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_DATE_DATE_ID" id="5A7DC414-C11C-0CE0-42E9-0256F27EE04E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>295657AA-613D-312D-9E9D-C35642B69407</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_CHANNELS_CHANNEL_ID" id="45532CC2-D551-C217-B5DB-128AF1544EE7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>E83B1D81-6DB2-E472-7B8C-E2939CCE2A90</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_EMPLOYEES_EMPLOYEE_ID" id="21F4B10E-27C3-E031-B31E-C9636C2FDF51">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>637D595B-D00C-710D-80FC-8018B8697C2F</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_PRODUCTS_PROD_ID" id="2ACF35EB-5208-E19A-3E8D-E2E3C92290B4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>3CE0DE06-F27D-64A4-B55B-A2D08D05E821</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIM_CUSTOMERS_CUST_ID" id="09AF1A22-91F0-4A5B-1E1A-BF15FADE3586">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>F0A3BC45-D0E6-4308-A10B-30DD6B0BAC25</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALESID" id="7405699B-2B0F-700D-5050-8F996C0E23A7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>63640222-AF03-CCE2-FEDD-17AC0E2471D1</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_OF_DAY_TIME_OF_DAY_ID" id="254FD17E-EAEF-2322-F846-3269C296C471">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>0C2F9CFD-9E6C-34FF-92F9-D9663AA519D6</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="944BA737-63D4-90BD-62A1-AD6AA66920FA" referredColumn="BBE94A53-D8C0-5012-82A6-2B6BCB7596A2"/>
+</associations>
+</Column>
+<Column name="SK_PROD_ID" id="4C4B0979-4F81-1A20-0A2E-E506E32D046A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>2002B7E5-E3E6-7C3C-D39B-2E210C3DB685</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11E5A39F-2687-2758-20B4-9C249DA0479F" referredColumn="82D2A8CA-C8BC-4218-D9C5-A3DD14E0B487"/>
+</associations>
+</Column>
+<Column name="SK_CUST_ID" id="8245E4DD-5D98-9B2C-8662-E4B5053305B1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>7BFFE95A-CA91-9F77-3238-3EEBE03648AE</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86461C80-802F-ED5A-B575-7D14C5693388" referredColumn="FDEEE9DA-515B-6EF5-F35E-575FADB83899"/>
+</associations>
+</Column>
+<Column name="SK_ID" id="D33997C9-34D0-BD65-2587-0274C6D47A39">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>48185242-9482-6136-C839-6F064E26B575</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F96AD94-B760-26CE-8101-2358D9799AE9" referredColumn="C31C8982-B76C-EA4D-3160-3BEAD0B5ABBA"/>
+</associations>
+</Column>
+<Column name="SK_DATE_ID" id="17CA9F6D-86BC-E51E-BFFE-8ECF213D5A27">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>0F0C3992-308C-B29E-2ACD-E3BEAC9D02AD</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A70E686-39BD-E56D-B565-28E2ABB814D2" referredColumn="2F41287B-97CF-4F1D-A1C2-6DB342860814"/>
+</associations>
+</Column>
+<Column name="SK_EMPLOYEE_ID" id="239088EA-981A-A6F4-84DA-67D3B61FE836">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<generatorID>271FC745-731B-516B-04FD-254692DED562</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0D772DC-430A-0D4E-EBEB-28051FF42305" referredColumn="07CBEA59-DA1D-D1C9-66DA-32F9DC20FB9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="336D1AA6-92F7-7931-33E0-B94358F72BF2" name="FACT_SALES_PK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>35FB0A9C-C63D-6964-76D0-18ED28D36FEC</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7405699B-2B0F-700D-5050-8F996C0E23A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="746D537F-7E13-AFB4-FD69-D7436FF9A95F" name="FACT_SALES_DIM_DATE_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>D9163FE0-8D9A-9EBC-4B89-D823332A1ABE</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CA9F6D-86BC-E51E-BFFE-8ECF213D5A27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DE4E957-C485-B267-ACCB-1CEC18D54E6B" name="FACT_SALES_DIM_CURRENCY_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>E33E7540-7EF4-8C77-3598-8F234F9A7FB5</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33997C9-34D0-BD65-2587-0274C6D47A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F55284DA-D9C5-8457-9D60-0E52D6A2E8A6" name="FACT_SALES_DIM_EMPLOYEES_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>D1C7815E-A644-354B-4A62-D439AE66DD8D</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239088EA-981A-A6F4-84DA-67D3B61FE836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E156A9C-75C7-E25A-93BA-B93302F612B7" name="FACT_SALES_DIM_PRODUCTS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>B28BC744-820A-4680-5DD3-EC7466C34902</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C4B0979-4F81-1A20-0A2E-E506E32D046A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="203DC858-AD0D-422D-13BB-54B7E10FC40C" name="FACT_SALES_DIM_CUSTOMERS_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<generatorID>882DAD8C-F324-D946-1C47-CB7926B69346</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8245E4DD-5D98-9B2C-8662-E4B5053305B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98D3DD33-E23A-9F2E-1438-CD14E6EABA17" name="FACT_SALES_TIME_OF_DAY_FK">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<generatorID>F8EC8190-6F83-15ED-D7DB-9EE701927ABC</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="254FD17E-EAEF-2322-F846-3269C296C471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

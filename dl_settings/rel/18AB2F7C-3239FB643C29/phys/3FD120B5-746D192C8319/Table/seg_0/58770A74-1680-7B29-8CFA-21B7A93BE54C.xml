@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIM_EMPLOYEES" directorySegmentName="seg_0" id="58770A74-1680-7B29-8CFA-21B7A93BE54C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SK_EMPLOYEE_ID" id="07CBEA59-DA1D-D1C9-66DA-32F9DC20FB9D">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMISSION_PCT" id="1F42A256-C134-4803-AA4C-FD4F912DEAD0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="45491CE4-4852-76A5-7F3F-68D1DDAED8B2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="5D926E78-24C0-9C95-1744-E7E889FEA5B0">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="6032AC80-3625-7078-9746-5191020818E8">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="65F7A702-E2E4-E4FD-273C-949A8B42A42C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="67DD9282-3884-02A5-0D9F-3AA7BA5C154B">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="AEC7F4F1-676B-D716-9B1F-3E035032DB33">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE_DATE" id="C7190A19-A556-DC9E-838A-5F2C0D70A219">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="D1AB4833-6262-ADF5-8682-CD34A7CF47C2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="F5EAC817-5E28-ECC5-F845-7600D8945342">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_EMPLOYEES_PK" id="78FFAED0-A88C-FA3D-16C4-4CC1ADB80655">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

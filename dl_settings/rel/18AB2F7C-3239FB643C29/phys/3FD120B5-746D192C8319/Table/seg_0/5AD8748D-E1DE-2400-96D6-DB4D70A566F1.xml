@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FACT_SALES" directorySegmentName="seg_0" id="5AD8748D-E1DE-2400-96D6-DB4D70A566F1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIM_CUSTOMERS_CUST_ID" id="09AF1A22-91F0-4A5B-1E1A-BF15FADE3586">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_SOLD" id="0CABB744-F91D-2EA8-C058-362C86ED72B5">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_DATE_ID" id="17CA9F6D-86BC-E51E-BFFE-8ECF213D5A27">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIM_EMPLOYEES_EMPLOYEE_ID" id="21F4B10E-27C3-E031-B31E-C9636C2FDF51">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_EMPLOYEE_ID" id="239088EA-981A-A6F4-84DA-67D3B61FE836">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_OF_DAY_TIME_OF_DAY_ID" id="254FD17E-EAEF-2322-F846-3269C296C471">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIM_PRODUCTS_PROD_ID" id="2ACF35EB-5208-E19A-3E8D-E2E3C92290B4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIM_CHANNELS_CHANNEL_ID" id="45532CC2-D551-C217-B5DB-128AF1544EE7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_PROD_ID" id="4C4B0979-4F81-1A20-0A2E-E506E32D046A">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIM_DATE_DATE_ID" id="5A7DC414-C11C-0CE0-42E9-0256F27EE04E">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALESID" id="7405699B-2B0F-700D-5050-8F996C0E23A7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY_SOLD" id="7ED526EC-5AB3-AD0C-4021-B5633DFD88D3">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_CUST_ID" id="8245E4DD-5D98-9B2C-8662-E4B5053305B1">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SK_ID" id="D33997C9-34D0-BD65-2587-0274C6D47A39">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 13:47:43 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_DIM_CUSTOMERS_FK" id="203DC858-AD0D-422D-13BB-54B7E10FC40C">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_DIM_CURRENCY_FK" id="3DE4E957-C485-B267-ACCB-1CEC18D54E6B">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_DIM_DATE_FK" id="746D537F-7E13-AFB4-FD69-D7436FF9A95F">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_TIME_OF_DAY_FK" id="98D3DD33-E23A-9F2E-1438-CD14E6EABA17">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_DIM_PRODUCTS_FK" id="9E156A9C-75C7-E25A-93BA-B93302F612B7">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_SALES_DIM_EMPLOYEES_FK" id="F55284DA-D9C5-8457-9D60-0E52D6A2E8A6">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:43:13 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FACT_SALES_PK" id="336D1AA6-92F7-7931-33E0-B94358F72BF2">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

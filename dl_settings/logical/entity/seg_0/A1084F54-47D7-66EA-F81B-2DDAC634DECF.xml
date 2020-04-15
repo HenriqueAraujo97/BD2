@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C53F5C0-D6C2-B69E-7823-9AEB49427331" name="BUYS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1084F54-47D7-66EA-F81B-2DDAC634DECF" name="DIM_CURRENCY">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>27BCE32F-4F21-BF16-1254-7E4A2CBAC406</generatorID>
+<createdTime>2020-04-08 14:19:50 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -16,82 +15,86 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SUPPLIER ID" id="6E3C96FE-1305-79C5-A1E2-905441782E27">
+<Attribute name="SK_ID" id="455A9AFD-525D-D631-7FE0-19B783C56DB3">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>7EF03D62-F932-46BD-44D8-D1E7654074D4</generatorID>
+<createdTime>2020-04-15 13:34:49 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
-<referedAttribute>50F44766-66C4-6F7C-92FD-DD036325C3C5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BUY DATE" id="E341A894-1A54-512B-0A30-1057906EA3B4">
+<Attribute name="ID" id="6BB04E74-7BD0-4936-45C6-B901482748F1">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>11289598-A460-07D5-8773-3AEE30B62FF7</generatorID>
+<createdTime>2020-04-08 14:23:50 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMPLOYEE_ID" id="CE60EAB2-31FD-86B0-0484-7F9C5C6A9DC4">
+<Attribute name="NAME" id="DD9F259A-69CB-AD05-5AB1-29D37635C957">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>A7F8B702-BA3C-1FDF-C48B-9F41B341C48A</generatorID>
+<createdTime>2020-04-08 14:23:50 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>05CDC71C-0E9F-D15B-1EF3-F028ABED0133</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BUY ID" id="2CED993E-BDB4-379E-F4E1-F82A341F09C5">
+<Attribute name="DISCRIPTION" id="54FD4469-09E8-262B-29D8-E943B8895FAF">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
-<generatorID>741ACFA7-EFF7-CB1A-858B-BF4321911FF1</generatorID>
+<createdTime>2020-04-08 14:23:51 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME_VALUE" id="149CA1E4-BE37-C4EC-EC3E-56BCC43FE887">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 10:59:02 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BFBA4F0E-13D0-BEAD-A4C2-95849D5210A1" name="PK BUYS">
+<identifier id="6AFB5A8B-9E01-25ED-3554-E2FBB13522B1" name="DIM_CHANNELS PK">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>5AFFEECD-A6DA-47AF-A03E-5C8352D30C78</generatorID>
+<createdTime>2020-04-08 14:24:09 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2CED993E-BDB4-379E-F4E1-F82A341F09C5</attributeRef>
+<attributeRef>455A9AFD-525D-D631-7FE0-19B783C56DB3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

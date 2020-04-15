@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A06B63-4D4D-7BC1-2069-AD412B95FB7C" name="bdii_1012531.currency.values">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA0D76D8-B8A9-7E60-AA28-6EC759DE7D2A" name="MIN_DIM_PRODUCTS">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:23:52 UTC</createdTime>
+<createdTime>2020-04-15 15:08:05 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -15,23 +15,38 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="8536F69C-F38A-6B76-9161-674B5904AAB2">
+<Attribute name="ID_DIM_PRODUCTS" id="C592D588-724E-CBFA-B868-7CD3BBB46AF1">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:11 UTC</createdTime>
+<createdTime>2020-04-15 15:08:13 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NAME_VALUE" id="BC54986F-368C-0F03-3AA3-63AA33BB0198">
+<Attribute name="CAT_PROMOTION" id="FFDC178B-CD2F-D039-DF32-FD202E88BC90">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:11 UTC</createdTime>
+<createdTime>2020-04-15 15:08:14 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY_PRODUCT" id="BE75F92F-24B0-7F4E-F587-6BF1135F18D4">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-15 15:10:12 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -44,19 +59,4 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FEA63F28-7252-16C3-57CC-E95829222926" name="bdii_1012531.currency.values PK">
-<createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:25 UTC</createdTime>
-<ownerDesignName>dl_settings</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="false"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>8536F69C-F38A-6B76-9161-674B5904AAB2</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

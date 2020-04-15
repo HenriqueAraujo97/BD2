@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="bdii_1012531.currency.values" directorySegmentName="seg_0" id="085792C4-9ED2-924B-C0F0-4CD73B66E330">
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIME_OF_DAY" directorySegmentName="seg_0" id="43220018-B830-5405-00B9-8935E0120781">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -9,21 +9,21 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="ID" id="58036512-67EF-F306-6C5A-4B93AD1CF3D1">
+<ColumnProxy name="HOUR" id="3A09FE6B-F6A3-9975-7131-56F39DF2E7EC">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NAME_VALUE" id="E6FBA4E3-DA1F-A7E4-FD08-BE1F344B8B5E">
+<ColumnProxy name="TIME_OF_DAY_ID" id="BBE94A53-D8C0-5012-82A6-2B6BCB7596A2">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="bdii_1012531.currency.values_PK" id="AD649BCD-EF0D-62BF-89FF-CE9CF2EB31DD">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIME_OF_DAY_PK" id="F9E059D7-5D04-60F8-902A-BE9DF0682911">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:25:07 UTC</createdTime>
+<createdTime>2020-04-14 11:46:08 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

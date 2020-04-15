@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FA73F8F-F15B-6D30-18BE-E9E079C5EF7D" name="EMPLOYEES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F776B751-74BD-3665-C24E-DC86E4549CA1" name="DIM_EMPLOYEES">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>B3E46748-7FB0-A278-602A-9E8E7658B7B2</generatorID>
+<createdTime>2020-04-03 10:57:48 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -16,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="EMPLOYEE_ID" id="05CDC71C-0E9F-D15B-1EF3-F028ABED0133">
+<Attribute name="SK_EMPLOYEE_ID" id="E0E9EE71-CBF4-88BD-6B16-3E634750DE83">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>564770EE-02D1-3B7B-6655-F16AD2346ABE</generatorID>
+<createdTime>2020-04-15 13:47:04 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -30,10 +28,22 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FIRST_NAME" id="F6A81EEB-FD8E-DD28-4FCF-A76C69C5A7C0">
+<Attribute name="EMPLOYEE_ID" id="5899FF23-6926-FCA0-56DA-EBE974B6F53D">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>ABD91949-8550-C27E-223B-00775F67BB94</generatorID>
+<createdTime>2020-04-03 10:58:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST_NAME" id="271CBA10-E93A-FDC7-E836-83B6F4E93BEF">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-03 10:58:16 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -42,13 +52,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15 BYTE</dataTypeSize>
-<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST_NAME" id="21975108-5638-CA28-4551-06DD3324A6D1">
+<Attribute name="LAST_NAME" id="4CD69CE3-5EC0-A3E3-14F8-F71A1DA435A0">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>80135F59-15AB-0200-1966-69A99740FDC1</generatorID>
+<createdTime>2020-04-03 10:58:16 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -57,13 +66,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMAIL" id="EAC36DC8-9CC6-B66D-17F6-225801636D49">
+<Attribute name="EMAIL" id="4078228A-4C07-337E-5ACA-BE91C3D1E1B0">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>BFDF8C7D-37DE-BD1E-840F-7CF546B9D59E</generatorID>
+<createdTime>2020-04-03 10:58:16 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -72,13 +80,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PHONE_NUMBER" id="1CB69B95-1303-F4AD-4EB8-17C0570A5AD9">
+<Attribute name="PHONE_NUMBER" id="649B312F-547A-28EE-88B7-08A13E4D60A0">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>67E35DD2-C3E8-2006-ABA8-2A4E684D5CF5</generatorID>
+<createdTime>2020-04-03 10:58:17 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -87,13 +94,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 BYTE</dataTypeSize>
-<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HIRE_DATE" id="8802F7B6-9FA8-848C-B283-D1BDA4A6CFA9">
+<Attribute name="HIRE_DATE" id="9D4B1683-E82E-3792-F927-6630F9AB30E5">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>CEDB08D8-47A3-4148-DDCF-DEA180AC3C07</generatorID>
+<createdTime>2020-04-03 10:59:39 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -104,10 +110,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="JOB_ID" id="1038C5E4-A37D-7E94-34E5-F34AB5F526CD">
+<Attribute name="JOB_ID" id="5F039AE1-2AE2-4370-6DF6-0A875E69CCD9">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>5A965A61-C046-6AFF-6CBC-F2E6868099BE</generatorID>
+<createdTime>2020-04-08 14:30:43 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -116,28 +121,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SALARY" id="190815FE-FB2F-F5FA-0C95-D8662870A153">
+<Attribute name="SALARY" id="96CDB567-3058-A66B-507E-612B343E885D">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>07642825-560C-AC4E-8FDC-2ACEC3D86633</generatorID>
-<ownerDesignName>dl_settings</ownerDesignName>
-<engineerTo>
-<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COMMISSION_PCT" id="3CDDC7A6-61F3-5565-0CAF-8D648ABB2273">
-<createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>19F3C01B-6A63-BC13-7B75-EA2526C95F21</generatorID>
+<createdTime>2020-04-08 14:30:48 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -150,35 +139,46 @@
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,5,3</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMPLOYEE_ID1" id="FC44CCCA-7195-8B97-DB52-F23F57981C61">
+<Attribute name="COMMISSION_PCT" id="16278D0E-165B-B95D-E077-ED18B4FEDF0A">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>EFF90982-3A3A-5CA1-5C75-9C0FD7B6C159</generatorID>
+<createdTime>2020-04-08 14:31:39 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>05CDC71C-0E9F-D15B-1EF3-F028ABED0133</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANAGER_ID" id="7A91FF0B-2FE3-DE15-C468-AE1B0853F870">
+<createdBy>Henrique</createdBy>
+<createdTime>2020-04-14 11:36:27 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5605369F-D559-0652-0B83-DDA7F845AFA3" name="PK EMPLOYEES">
+<identifier id="38FD33E0-EFED-CBC3-F6E0-F171041E97DF" name="EMPLOYEE PK">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:22:20 UTC</createdTime>
-<generatorID>B959A263-E872-7E02-020C-D8E45F2BABEC</generatorID>
+<createdTime>2020-04-03 10:58:28 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>05CDC71C-0E9F-D15B-1EF3-F028ABED0133</attributeRef>
+<attributeRef>E0E9EE71-CBF4-88BD-6B16-3E634750DE83</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

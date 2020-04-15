@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A06B63-4D4D-7BC1-2069-AD412B95FB7C" name="bdii_1012531.currency.values">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2531D68-BC05-BACB-1C35-BD75D5B9262A" name="TIME_OF_DAY">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:23:52 UTC</createdTime>
+<createdTime>2020-04-14 10:59:58 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="8536F69C-F38A-6B76-9161-674B5904AAB2">
+<Attribute name="TIME_OF_DAY_ID" id="432B9A34-18C5-02FD-3A42-9CB96ADA12CC">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:11 UTC</createdTime>
+<createdTime>2020-04-14 11:00:11 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -25,13 +25,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NAME_VALUE" id="BC54986F-368C-0F03-3AA3-63AA33BB0198">
+<Attribute name="HOUR" id="B81B1417-FB11-9370-A5AC-03385057D2C3">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:11 UTC</createdTime>
+<createdTime>2020-04-14 11:00:12 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <engineerTo>
 <item key="18AB2F7C-FC78-19CA-3443-3239FB643C29" value="true"/>
@@ -39,15 +38,16 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FEA63F28-7252-16C3-57CC-E95829222926" name="bdii_1012531.currency.values PK">
+<identifier id="D4111F67-8290-CA35-EFC4-DEDB1737A295" name="TIME_OF_DAY PK">
 <createdBy>Henrique</createdBy>
-<createdTime>2020-04-03 10:24:25 UTC</createdTime>
+<createdTime>2020-04-14 11:00:20 UTC</createdTime>
 <ownerDesignName>dl_settings</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -55,7 +55,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8536F69C-F38A-6B76-9161-674B5904AAB2</attributeRef>
+<attributeRef>432B9A34-18C5-02FD-3A42-9CB96ADA12CC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

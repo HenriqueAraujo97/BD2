@@ -21,7 +21,7 @@
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NAME" id="E6FBA4E3-DA1F-A7E4-FD08-BE1F344B8B5E">
+<Column name="NAME_VALUE" id="E6FBA4E3-DA1F-A7E4-FD08-BE1F344B8B5E">
 <createdBy>Henrique</createdBy>
 <createdTime>2020-04-03 10:25:07 UTC</createdTime>
 <generatorID>BC54986F-368C-0F03-3AA3-63AA33BB0198</generatorID>
